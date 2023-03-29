@@ -93,7 +93,7 @@ setStatus9(!status9)
 <h1 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px",paddingBottom:"20px"}} onClick={handelClick1}> <Link to="#">DISCOUNT {status1?"⬆":"⬇"}</Link> </h1>
 
 {status1? <div>
-    
+    <h1> hhhhhh</h1>
 <input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
 <label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>20% off</label> <br/> <br />
 
