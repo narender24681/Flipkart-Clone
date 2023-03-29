@@ -69,7 +69,39 @@
 //   );
 // }
 import React from "react";
+import { Card } from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
 
 export default function LeftSide() {
-  return <div>fdsfsafas</div>;
+  return (
+    <div>
+      <Card p={"8px"} mt={"10px"}>
+        <Text>Hello</Text>
+      </Card>
+      <Card p={"8px"} mt={"10px"}>
+        <Text>Hello</Text>
+      </Card>
+      <Card p={"8px"} mt={"10px"}>
+        <Text>Hello</Text>
+      </Card>
+      <Card p={"8px"} mt={"10px"}>
+        <Text>Hello</Text>
+      </Card>
+      <Card p={"8px"} mt={"10px"}>
+        <Text>Hello</Text>
+      </Card>
+      <Card p={"8px"} mt={"10px"}>
+        <Text>Hello</Text>
+      </Card>
+      <Card p={"8px"} mt={"10px"}>
+        <Text>Hello</Text>
+      </Card>
+      <Card p={"8px"} mt={"10px"}>
+        <Text>Hello</Text>
+      </Card>
+      <Card p={"8px"} mt={"10px"}>
+        <Text>Hello</Text>
+      </Card>
+    </div>
+  );
 }

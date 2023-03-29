@@ -15,6 +15,7 @@ import {
   Text,
   useColorModeValue,
   Link,
+  Select,
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
@@ -25,7 +26,7 @@ export default function AddData() {
   return (
     <Flex
       // minH={"100vh"}
-      mt={"25px"}
+      mt={"10px"}
       align={"center"}
       justify={"center"}
       bg={useColorModeValue("gray.50", "gray.800")}
@@ -38,30 +39,57 @@ export default function AddData() {
           p={8}
         >
           <Stack spacing={4}>
+            <FormControl id="email" isRequired>
+              <FormLabel>Image-1</FormLabel>
+              <Input placeholder="Enter Image-1" type="text" />
+            </FormControl>
+            <FormControl id="email" isRequired>
+              <FormLabel>Image-2</FormLabel>
+              <Input placeholder="Enter Image-2" type="text" />
+            </FormControl>
+            <FormControl id="text" isRequired>
+              <FormLabel>Title</FormLabel>
+              <Input placeholder="Enter Title" type="text" />
+            </FormControl>
             <HStack>
               <Box>
                 <FormControl id="firstName" isRequired>
-                  <FormLabel>First Name</FormLabel>
-                  <Input type="text" />
+                  <FormLabel>Name</FormLabel>
+                  <Input placeholder="Enter Name" type="text" />
                 </FormControl>
               </Box>
               <Box>
                 <FormControl id="lastName">
-                  <FormLabel>Last Name</FormLabel>
-                  <Input type="text" />
+                  <FormLabel>Price</FormLabel>
+                  <Input placeholder="Enter Price" type="number" />
                 </FormControl>
               </Box>
             </HStack>
-            <FormControl id="email" isRequired>
-              <FormLabel>Email address</FormLabel>
-              <Input type="email" />
-            </FormControl>
+            <HStack>
+              <FormControl id="password" isRequired>
+                <FormLabel>Brand</FormLabel>
+                <InputGroup>
+                  <Input placeholder="Enter Brand" type={"text"} />
+                </InputGroup>
+              </FormControl>
+              <FormControl>
+                <FormLabel>Category</FormLabel>
+                <Select>
+                  <option>Select</option>
+                  <option>HEllo</option>
+                  <option>HEllo</option>
+                  <option>HEllo</option>
+                </Select>
+              </FormControl>
+            </HStack>
+
             <FormControl id="password" isRequired>
-              <FormLabel>Password</FormLabel>
+              <FormLabel>Description</FormLabel>
               <InputGroup>
-                <Input type={"text"} />
+                <Input placeholder="Enter Description" type={"text"} />
               </InputGroup>
             </FormControl>
+
             <Stack spacing={10} pt={2}>
               <Button
                 loadingText="Submitting"

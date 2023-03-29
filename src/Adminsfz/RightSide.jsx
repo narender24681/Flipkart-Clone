@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar, Badge, Box, Flex, Image, Text } from "@chakra-ui/react";
+import { Avatar, Badge, Box, Card, Flex, Image, Text } from "@chakra-ui/react";
 export default function RightSide() {
   const adminslogo = [
     {
@@ -65,7 +65,6 @@ export default function RightSide() {
           </Flex>
         </div>
       ))}
-
       <Box
         mt={"20px"}
         boxShadow={

@@ -27,7 +27,7 @@ export default function AdminsNav() {
           "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px",
       }}
     >
-      <Box bg={useColorModeValue("blue.100", "blue.700")} px={4} p={"5px"}>
+      <Box bg={useColorModeValue("#2874f0", "blue.200")} px={4} p={"5px"}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <Box>
             <Image
