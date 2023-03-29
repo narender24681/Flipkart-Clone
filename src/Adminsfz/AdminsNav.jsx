@@ -23,7 +23,7 @@ export default function AdminsNav() {
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
-    <>
+    <div style={{ position: "sticky", top: "0" }}>
       <Box bg={useColorModeValue("blue.100", "blue.900")} px={4} p={"5px"}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <Box>
@@ -45,6 +45,6 @@ export default function AdminsNav() {
           </Flex>
         </Flex>
       </Box>
-    </>
+    </div>
   );
 }
