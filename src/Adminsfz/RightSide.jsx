@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar, Badge, Box, Flex, Text } from "@chakra-ui/react";
+import { Avatar, Badge, Box, Flex, Image, Text } from "@chakra-ui/react";
 export default function RightSide() {
   const adminslogo = [
     {
@@ -52,6 +52,8 @@ export default function RightSide() {
             justifyContent: "center",
             marginTop: "15px",
             padding: "3px",
+            borderRadius: "10px",
+            border: "0.5px solid grey",
           }}
         >
           <Flex>
@@ -63,6 +65,18 @@ export default function RightSide() {
           </Flex>
         </div>
       ))}
+
+      <Box
+        mt={"20px"}
+        boxShadow={
+          "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px"
+        }
+      >
+        <Image
+          width={"100%"}
+          src="https://user-images.githubusercontent.com/106812942/228527708-055feca2-d75e-4aab-8bdd-07a9fe0352e0.png"
+        />
+      </Box>
     </div>
   );
 }
