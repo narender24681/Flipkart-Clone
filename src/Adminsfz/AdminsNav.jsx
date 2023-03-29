@@ -1,21 +1,16 @@
 import { ReactNode } from "react";
+import { FiBell } from "react-icons/fi";
+import { AiFillBell, AiOutlineAppstore } from "react-icons/ai";
 import {
   Box,
   Flex,
-  Avatar,
-  Link,
   Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuDivider,
   useDisclosure,
   useColorModeValue,
   Stack,
   useColorMode,
-  Center,
   Image,
+  IconButton,
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 
@@ -38,6 +33,13 @@ export default function AdminsNav() {
               SmileKart
             </Button>
             <Stack direction={"row"} spacing={7}>
+              <Button>
+                <AiFillBell />
+              </Button>
+              <Button>
+                <AiOutlineAppstore />
+              </Button>
+
               <Button onClick={toggleColorMode}>
                 {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
               </Button>
