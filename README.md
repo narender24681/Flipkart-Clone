@@ -8,4 +8,4 @@
 6. Chakra UI
 7. React-Router-Dom
 8. Json-Server
-9. ChakraUI icons
+
