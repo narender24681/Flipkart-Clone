@@ -76,9 +76,10 @@ export default function AddData() {
                 <FormLabel>Category</FormLabel>
                 <Select>
                   <option>Select</option>
-                  <option>HEllo</option>
-                  <option>HEllo</option>
-                  <option>HEllo</option>
+                  <option>Mens</option>
+                  <option>Womens</option>
+                  <option>Kids</option>
+                  <option>Electronics</option>
                 </Select>
               </FormControl>
             </HStack>

@@ -3,17 +3,18 @@ import { Avatar, Badge, Box, Card, Flex, Image, Text } from "@chakra-ui/react";
 export default function RightSide() {
   const adminslogo = [
     {
-      images: "https://bit.ly/sage-adebayo",
-      name: "Narender Chepuri",
-      badges: "New",
-      role: "Home page Creator",
-    },
-    {
       images: "https://avatars.githubusercontent.com/u/106812942?s=64&v=4",
       name: "Md Faizan",
       badges: "New",
       role: "Admin Panel Creator",
     },
+    {
+      images: "https://bit.ly/sage-adebayo",
+      name: "Narender Chepuri",
+      badges: "New",
+      role: "Home page Creator",
+    },
+
     {
       images:
         "https://ca.slack-edge.com/T04QH584W4W-U04R9KWMT8D-ed1e7ceeb760-512",

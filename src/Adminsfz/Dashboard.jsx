@@ -39,7 +39,7 @@ export default function Dashboard() {
         <Box
           // bg={useColorModeValue("blue.100", "blue.700")}
           width={"67%"}
-          h={"1000px"}
+          h={"100%"}
           boxShadow={
             "rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px"
           }

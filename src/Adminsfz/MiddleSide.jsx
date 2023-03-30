@@ -9,6 +9,7 @@ import {
   CardHeader,
   Divider,
   Heading,
+  Image,
   SimpleGrid,
   Stat,
   StatArrow,
@@ -17,7 +18,9 @@ import {
   StatLabel,
   StatNumber,
   Text,
+  useColorModeValue,
 } from "@chakra-ui/react";
+import RecordData from "./RecordData";
 
 export default function MiddleSide() {
   return (
@@ -36,9 +39,8 @@ export default function MiddleSide() {
           <AddData />
         </div>
       </div>
-      <Divider />
       <div>
-        <h1>All Products Will Be There...</h1>
+        <RecordData />
       </div>
     </div>
   );
@@ -54,7 +56,11 @@ function ExtraD() {
         <CardHeader>
           <Heading size="md"> Transaction History</Heading>
         </CardHeader>
-        <CardBody>
+        <CardBody display={"flex"}>
+          <Image
+            width={"50%"}
+            src="https://user-images.githubusercontent.com/106812942/228527708-055feca2-d75e-4aab-8bdd-07a9fe0352e0.png"
+          />
           <Text>View a summary of all your customers over the last month.</Text>
         </CardBody>
       </Card>
@@ -83,19 +89,19 @@ function ExtraD() {
         <StatGroup>
           <Stat>
             <StatLabel>Sent</StatLabel>
-            <StatNumber>345,670</StatNumber>
+            <StatNumber>66,670</StatNumber>
             <StatHelpText>
               <StatArrow type="increase" />
-              23.36%
+              39.36%
             </StatHelpText>
           </Stat>
 
           <Stat>
             <StatLabel>Clicked</StatLabel>
-            <StatNumber>45</StatNumber>
+            <StatNumber>12</StatNumber>
             <StatHelpText>
               <StatArrow type="decrease" />
-              9.05%
+              14.36%
             </StatHelpText>
           </Stat>
         </StatGroup>
@@ -104,19 +110,19 @@ function ExtraD() {
         <StatGroup>
           <Stat>
             <StatLabel>Sent</StatLabel>
-            <StatNumber>345,670</StatNumber>
+            <StatNumber>192,236</StatNumber>
             <StatHelpText>
               <StatArrow type="increase" />
-              23.36%
+              89.66%
             </StatHelpText>
           </Stat>
 
           <Stat>
             <StatLabel>Clicked</StatLabel>
-            <StatNumber>45</StatNumber>
+            <StatNumber>32</StatNumber>
             <StatHelpText>
               <StatArrow type="decrease" />
-              9.05%
+              22.35%
             </StatHelpText>
           </Stat>
         </StatGroup>
@@ -125,19 +131,19 @@ function ExtraD() {
         <StatGroup>
           <Stat>
             <StatLabel>Sent</StatLabel>
-            <StatNumber>345,670</StatNumber>
+            <StatNumber>155.360</StatNumber>
             <StatHelpText>
               <StatArrow type="increase" />
-              23.36%
+              33.33%
             </StatHelpText>
           </Stat>
 
           <Stat>
             <StatLabel>Clicked</StatLabel>
-            <StatNumber>45</StatNumber>
+            <StatNumber>66</StatNumber>
             <StatHelpText>
               <StatArrow type="decrease" />
-              9.05%
+              03.01%
             </StatHelpText>
           </Stat>
         </StatGroup>
