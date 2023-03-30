@@ -3,6 +3,10 @@ import { Select } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
 
 
+const sty= {height:"23px",width:"23px",marginLeft:"17px"}
+const sty1={fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}
+
+
 const Sidebar = () => {
     const [status1,setStatus1]=useState(false)
     const [status2,setStatus2]=useState(false)   
@@ -58,7 +62,7 @@ setStatus9(!status9)
         <div><h2 style={{fontSize:"33px",fontFamily:"fantasy",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Filters</h2></div>
 <hr />
        <div style={{alignItems:"center"}}>
-        <h2 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>CATEGORIES</h2>
+        <h2 style={sty1}>CATEGORIES</h2>
         
 {/* <h2 style={{fontSize:"20px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>BottemWear</h2> */}
 
@@ -74,11 +78,11 @@ setStatus9(!status9)
 <br />
 <div style={{textAlign:"left"}}>
 <hr />
-<Link to="#" style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Mens</Link>
+<Link to="#" style={sty1}>Mens</Link>
 <hr />
-<Link to="#" style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Womens</Link>
+<Link to="#" style={sty1}>Womens</Link>
 <hr />
-<Link to="#" style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Kids</Link>
+<Link to="#" style={sty1}>Kids</Link>
 <hr />
 </div>
 <br />
@@ -90,24 +94,24 @@ setStatus9(!status9)
 <hr />
 
 <div style={{textAlign:"left"}}>
-<h1 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px",paddingBottom:"20px"}} onClick={handelClick1}> <Link to="#">DISCOUNT {status1?"⬆":"⬇"}</Link> </h1>
+<h1 style={sty1} onClick={handelClick1}> <Link to="#">DISCOUNT {status1?"⬆":"⬇"}</Link> </h1>
 
 {status1? <div>
     <h1> hhhhhh</h1>
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>20% off</label> <br/> <br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>20% off</label> <br/> <br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>30% off</label> <br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>30% off</label> <br /><br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>40% off</label><br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>40% off</label><br /><br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>50% off</label><br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>50% off</label><br /><br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>60% off</label><br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>60% off</label><br /><br />
 
 </div>:""}
 
@@ -122,21 +126,21 @@ setStatus9(!status9)
 
 {status2? <div>
     
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>ADIDAS</label> <br/> <br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>ADIDAS</label> <br/> <br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>
+<input type="checkbox" style={sty}/>
+<label style={sty1}>
 Allen Solly</label> <br /><br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>CUTIEKINS</label><br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>CUTIEKINS</label><br /><br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Dressberry</label><br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Dressberry</label><br /><br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>FILA</label><br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>FILA</label><br /><br />
 
 </div>:""}
 
@@ -150,11 +154,11 @@ Allen Solly</label> <br /><br />
 
 {status3? <div>
     
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>4★ & above</label> <br/> <br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>4★ & above</label> <br/> <br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>3★ & above</label> <br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>3★ & above</label> <br /><br />
 
 </div>:""}
 
@@ -166,20 +170,20 @@ Allen Solly</label> <br /><br />
 
 {status4? <div>
     
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Sm</label> <br/> <br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Sm</label> <br/> <br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Large</label> <br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Large</label> <br /><br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>ExtraLarge</label><br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>ExtraLarge</label><br /><br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>X</label><br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>X</label><br /><br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>XL</label><br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>XL</label><br /><br />
 
 </div>:""}
 
@@ -189,7 +193,7 @@ Allen Solly</label> <br /><br />
 
 {/* ---------------------price ------------------------------*/}
        <div style={{alignItems:"center"}}>
-        <h2 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>PRICE</h2>
+        <h2 style={sty1}>PRICE</h2>
         
 {/* <h2 style={{fontSize:"20px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>BottemWear</h2> */}
 
@@ -211,20 +215,20 @@ Allen Solly</label> <br /><br />
 
 {status5? <div>
     
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Black</label> <br/> <br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Black</label> <br/> <br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>White</label> <br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>White</label> <br /><br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Pink</label><br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Pink</label><br /><br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Blue</label><br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Blue</label><br /><br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Grey</label><br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Grey</label><br /><br />
 
 </div>:""}
 
@@ -240,21 +244,21 @@ Allen Solly</label> <br /><br />
 
 {status6? <div>
     
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>
+<input type="checkbox" style={sty}/>
+<label style={sty1}>
 Regular Fit</label> <br/> <br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Wide leg</label> <br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Wide leg</label> <br /><br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Fit</label><br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Fit</label><br /><br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Super Skinny</label><br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Super Skinny</label><br /><br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Boyfriend</label><br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Boyfriend</label><br /><br />
 
 </div>:""}
 
@@ -269,11 +273,11 @@ Regular Fit</label> <br/> <br />
 
 {status7? <div>
     
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Buy More, Save More</label> <br/> <br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Buy More, Save More</label> <br/> <br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Special Price</label> <br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Special Price</label> <br /><br />
 
 
 
@@ -290,20 +294,20 @@ Regular Fit</label> <br/> <br />
 
 {status8? <div>
     
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Chiffon Blend</label> <br/> <br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Chiffon Blend</label> <br/> <br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Cotton Capri</label> <br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Cotton Capri</label> <br /><br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Cotton Crepe Blend</label><br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Cotton Crepe Blend</label><br /><br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Cotton Fleece Blend</label><br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Cotton Fleece Blend</label><br /><br />
 
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Cotton Satin Blend</label><br /><br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Cotton Satin Blend</label><br /><br />
 
 </div>:""}
 
@@ -319,8 +323,8 @@ Regular Fit</label> <br/> <br />
 
 {status9? <div>
     
-<input type="checkbox" style={{height:"23px",width:"23px",marginLeft:"17px"}}/>
-<label style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>Include Out of Stock</label> <br/> <br />
+<input type="checkbox" style={sty}/>
+<label style={sty1}>Include Out of Stock</label> <br/> <br />
 
 </div>:""}
 
