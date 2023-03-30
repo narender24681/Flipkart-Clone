@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffct } from "react";
+import { useDispatch } from "react-redux";
 
 import {
   Flex,
@@ -8,24 +9,40 @@ import {
   Input,
   InputGroup,
   HStack,
-  InputRightElement,
   Stack,
   Button,
-  Heading,
-  Text,
   useColorModeValue,
-  Link,
   Select,
 } from "@chakra-ui/react";
-import { useState } from "react";
-import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
-
+import { addProducstData } from "../Redux/AdminReducer/action";
+const initialState = {
+  image1: "",
+  image2: "",
+  title: "",
+  price: "₹",
+  name: "",
+  brand: "",
+  category: "",
+  description:
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+};
 export default function AddData() {
-  const [showPassword, setShowPassword] = useState(false);
-
+  const [adData, setAddData] = useState(initialState);
+  const dispatch = useDispatch();
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setAddData((prev) => {
+      return { ...prev, [name]: value };
+    });
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    dispatch(addProducstData(adData));
+    console.log(adData);
+    setAddData(initialState);
+  };
   return (
     <Flex
-      // minH={"100vh"}
       mt={"10px"}
       align={"center"}
       justify={"center"}
@@ -41,27 +58,57 @@ export default function AddData() {
           <Stack spacing={4}>
             <FormControl id="email" isRequired>
               <FormLabel>Image-1</FormLabel>
-              <Input placeholder="Enter Image-1" type="text" />
+              <Input
+                placeholder="Enter Image-1"
+                type="text"
+                name="image1"
+                onChange={(e) => handleChange(e)}
+                value={adData.image1}
+              />
             </FormControl>
             <FormControl id="email" isRequired>
               <FormLabel>Image-2</FormLabel>
-              <Input placeholder="Enter Image-2" type="text" />
+              <Input
+                placeholder="Enter Image-2"
+                type="text"
+                name="image2"
+                onChange={(e) => handleChange(e)}
+                value={adData.image2}
+              />
             </FormControl>
             <FormControl id="text" isRequired>
               <FormLabel>Title</FormLabel>
-              <Input placeholder="Enter Title" type="text" />
+              <Input
+                placeholder="Enter Title"
+                type="text"
+                name="title"
+                onChange={(e) => handleChange(e)}
+                value={adData.title}
+              />
             </FormControl>
             <HStack>
               <Box>
                 <FormControl id="firstName" isRequired>
                   <FormLabel>Name</FormLabel>
-                  <Input placeholder="Enter Name" type="text" />
+                  <Input
+                    placeholder="Enter Name"
+                    type="text"
+                    name="name"
+                    onChange={(e) => handleChange(e)}
+                    value={adData.name}
+                  />
                 </FormControl>
               </Box>
               <Box>
                 <FormControl id="lastName">
                   <FormLabel>Price</FormLabel>
-                  <Input placeholder="Enter Price" type="number" />
+                  <Input
+                    placeholder="Enter Price"
+                    type="number"
+                    name="price"
+                    onChange={(e) => handleChange(e)}
+                    value={adData.price}
+                  />
                 </FormControl>
               </Box>
             </HStack>
@@ -69,12 +116,22 @@ export default function AddData() {
               <FormControl id="password" isRequired>
                 <FormLabel>Brand</FormLabel>
                 <InputGroup>
-                  <Input placeholder="Enter Brand" type={"text"} />
+                  <Input
+                    placeholder="Enter Brand"
+                    type={"text"}
+                    name="brand"
+                    onChange={(e) => handleChange(e)}
+                    value={adData.brand}
+                  />
                 </InputGroup>
               </FormControl>
               <FormControl>
                 <FormLabel>Category</FormLabel>
-                <Select>
+                <Select
+                  name="category"
+                  onChange={(e) => handleChange(e)}
+                  value={adData.category}
+                >
                   <option>Select</option>
                   <option>Mens</option>
                   <option>Womens</option>
@@ -87,12 +144,18 @@ export default function AddData() {
             <FormControl id="password" isRequired>
               <FormLabel>Description</FormLabel>
               <InputGroup>
-                <Input placeholder="Enter Description" type={"text"} />
+                <Input
+                  placeholder="Enter Description"
+                  type={"text"}
+                  onChange={(e) => handleChange(e)}
+                  value={adData.description}
+                />
               </InputGroup>
             </FormControl>
 
             <Stack spacing={10} pt={2}>
               <Button
+                onClick={handleSubmit}
                 loadingText="Submitting"
                 size="lg"
                 bg={"yellow.400"}

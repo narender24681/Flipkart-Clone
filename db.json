@@ -11,5 +11,117 @@
       "rating": 4.1,
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
     }
+  ],
+  "electronics": [
+    {
+      "image1": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/r/q/m/-original-imagca5ajerqpfjy.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": "APPLE iPhone 13 (Green, 128 GB)",
+      "price": "₹61,999",
+      "name": "IPhone",
+      "brand": "APPLE ",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Electronics",
+      "id": 1
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/416/416/kg8avm80/mobile/y/7/n/apple-iphone-12-dummyapplefsn-original-imafwg8dpyjvgg3j.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/kg8avm80/mobile/q/8/f/apple-iphone-12-dummyapplefsn-original-imafwg8dfrjcn9hc.jpeg?q=70",
+      "title": "APPLE iPhone 12 (Blue, 64 GB)",
+      "price": "₹53,999",
+      "name": "IPhone12",
+      "brand": "Apple",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Electronics",
+      "id": 2
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/a/x/s/-original-imagna3eswgyntzw.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/5/e/o/-original-imagnshsqtcvgmhy.jpeg?q=70",
+      "title": "vivo V27 5G (Noble Black, 128 GB)  (8 GB RAM)",
+      "price": "₹32,999",
+      "name": "vivo V27",
+      "brand": "Vivo",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Electronics",
+      "id": 3
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/m/j/j/-original-imagnvvwvzyhfvx9.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/x/v/d/-original-imagnvvw2kghkznh.jpeg?q=70",
+      "title": "MOTOROLA G32 (Mineral Gray, 128 GB)  (8 GB RAM)",
+      "price": "₹11,999",
+      "name": "MOTOROLA G32",
+      "brand": "MOTOROLA",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Electronics",
+      "id": 4
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/416/416/xif0q/headphone/3/l/0/-original-imaghhtpvp9fgcdm.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/ktszgy80/headphone/8/s/7/airbass-gearpods-boult-audio-original-imag72hmqvwxy8gg.jpeg?q=70",
+      "title": "Boult Audio AirBass GearPods with 32H Playtime Bluetooth Headset  (White, True Wireless)",
+      "price": "₹1599",
+      "name": "AirBass GearPods",
+      "brand": "Boat",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Electronics",
+      "id": 5
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/416/416/l0sgyvk0/headphone/m/b/c/buds-z2-oneplus-original-imagcg5stg9fzes6.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0sgyvk0/headphone/w/w/k/buds-z2-oneplus-original-imagcg5sragbg8qn.jpeg?q=70",
+      "title": "OnePlus Bullets Wireless Z2 Bluetooth Headset  (Beam Blue, In the Ear)",
+      "price": "₹1999",
+      "name": "OnePlus ",
+      "brand": "Rockerz",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Electronics",
+      "id": 6
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/416/416/kmccosw0/headphone/9/h/j/rockerz-450-pro-boat-original-imagf9gyd4u6w85z.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/kvsfhjk0/headphone/v/s/y/-original-imag8mf832nayshh.jpeg?q=70",
+      "title": "boAt Rockerz 450 Pro with Upto 70 Hours Playback Bluetooth Headset  (Aqua Blue, On the Ear)",
+      "price": "₹1899",
+      "name": "boAt Rockerz 450",
+      "brand": "Boat",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Electronics",
+      "id": 7
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/416/416/l3vxbbk0/headphone/8/o/b/-original-imagewuzhgefmdkn.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/xif0q/headphone/v/q/l/-original-imagg5ndssavz5kn.jpeg?q=70",
+      "title": "boAt Rockerz 510 Super Extra Bass Bluetooth Headset  (Molten Orange, On the Ear)",
+      "price": "₹2199",
+      "name": "boAt Rockerz 510",
+      "brand": "Boat",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Electronics",
+      "id": 8
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/416/416/l3nco7k0/television/s/q/m/-original-imageq5eptqwxcv8.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l3nco7k0/television/z/d/k/-original-imageq5ejzy6enmw.jpeg?q=70",
+      "title": "Samsung Crystal 4K 108 cm (43 inch) Ultra HD (4K) LED Smart Tizen TV  (UA43AUE60AKLXL)",
+      "price": "₹29980",
+      "name": "Samsung Crystal 4K ",
+      "brand": "Samsung ",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Electronics",
+      "id": 9
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/416/416/l2nmnww0/monitor/0/r/j/-original-imagdyc4ehaygvug.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l2nmnww0/monitor/g/u/t/-original-imagdyc459gzvgq5.jpeg?q=70",
+      "title": "ZEBRONICS 24 inch Full HD VA Panel Wall Mountable Monitor (ZEB-A24FHD LED)  (Response Time: 14 ms, 75 Hz Refresh Rate)",
+      "price": "₹7999",
+      "name": "Mountable Monitor",
+      "brand": "ZEBRONICS ",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Electronics",
+      "id": 10
+    }
   ]
 }
