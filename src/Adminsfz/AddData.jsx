@@ -64,6 +64,7 @@ export default function AddData() {
                 name="image1"
                 onChange={(e) => handleChange(e)}
                 value={adData.image1}
+                isRequired
               />
             </FormControl>
             <FormControl id="email" isRequired>
@@ -74,6 +75,7 @@ export default function AddData() {
                 name="image2"
                 onChange={(e) => handleChange(e)}
                 value={adData.image2}
+                isRequired
               />
             </FormControl>
             <FormControl id="text" isRequired>
@@ -84,6 +86,7 @@ export default function AddData() {
                 name="title"
                 onChange={(e) => handleChange(e)}
                 value={adData.title}
+                isRequired
               />
             </FormControl>
             <HStack>
@@ -96,6 +99,7 @@ export default function AddData() {
                     name="name"
                     onChange={(e) => handleChange(e)}
                     value={adData.name}
+                    isRequired
                   />
                 </FormControl>
               </Box>
@@ -108,6 +112,7 @@ export default function AddData() {
                     name="price"
                     onChange={(e) => handleChange(e)}
                     value={adData.price}
+                    isRequired
                   />
                 </FormControl>
               </Box>
@@ -122,6 +127,7 @@ export default function AddData() {
                     name="brand"
                     onChange={(e) => handleChange(e)}
                     value={adData.brand}
+                    isRequired
                   />
                 </InputGroup>
               </FormControl>
@@ -131,6 +137,7 @@ export default function AddData() {
                   name="category"
                   onChange={(e) => handleChange(e)}
                   value={adData.category}
+                  isRequired
                 >
                   <option>Select</option>
                   <option>Mens</option>
@@ -149,6 +156,7 @@ export default function AddData() {
                   type={"text"}
                   onChange={(e) => handleChange(e)}
                   value={adData.description}
+                  isRequired
                 />
               </InputGroup>
             </FormControl>

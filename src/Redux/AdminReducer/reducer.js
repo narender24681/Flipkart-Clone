@@ -1,5 +1,6 @@
 import {
   ADD_PRODUCTS_SUCCSESS,
+  DETADM_PRODUCTS_SUCCSESS,
   GET_PRODUCTS_SUCCESS,
   PRODUCTS_FAILURE,
   PRODUCTS_REQUEST,
@@ -18,7 +19,13 @@ export const reducer = (state = initialState, action) => {
       return { ...state, isLoading: false };
     case PRODUCTS_FAILURE:
       return { ...state, isLoading: false, isError: true };
-
+    case DETADM_PRODUCTS_SUCCSESS:
+      return {
+        ...state,
+        isLoading: false,
+        isError: false,
+        electronics: action.payload,
+      };
     default:
       return state;
   }
