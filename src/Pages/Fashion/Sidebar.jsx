@@ -18,7 +18,7 @@ const [status7,setStatus7]=useState(false)
 const [status8,setStatus8]=useState(false)
 const [status9,setStatus9]=useState(false)
 
-    
+     
     const handelClick1=()=>{
 setStatus1(!status1)
 }
