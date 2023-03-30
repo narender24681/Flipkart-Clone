@@ -19,7 +19,7 @@ export const Navbar1 = () => {
                 </Box>
             </Center>
 
-            <FooterBottom />
+            <NavbarBottom />
         </>
     )
 }
@@ -193,7 +193,7 @@ function Searchbar() {
     )
 }
 
-function FooterBottom() {
+function NavbarBottom() {
     return (
         <Center borderBottom="1px solid lightGrey">
             <Box width={{ base: "100%", lg: "1280px" }} pl={2} pr={2} w="100%">
