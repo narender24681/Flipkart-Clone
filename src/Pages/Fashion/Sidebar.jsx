@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { Select } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
+import { useSearchParams } from 'react-router-dom';
+import { useEffect } from 'react';
 
 
 const sty= {height:"23px",width:"23px",marginLeft:"17px"}
@@ -18,7 +20,63 @@ const [status7,setStatus7]=useState(false)
 const [status8,setStatus8]=useState(false)
 const [status9,setStatus9]=useState(false)
 
-    
+const [searchParams, setSearchParams] = useSearchParams();
+const initialparam=searchParams.getAll("brand")
+const initialcategory=searchParams.getAll("category")
+const initialname=searchParams.getAll("name")
+const initialOrder=searchParams.get("order")
+const [brand,setBrand]=useState(initialparam||[])
+const [category,setCategory]=useState(initialcategory||[])
+const [name,setName]=useState(initialname||[])
+const [order,setOrder]=useState(initialOrder||"")
+
+
+const handelChange1=(e)=>{
+  let newarr=[...brand]
+  const value=e.target.value
+  if(newarr.includes(value)){
+      newarr=newarr.filter((el)=>el!==value)
+  }else{
+      newarr.push(value)
+  }
+setBrand(newarr)
+
+}
+
+
+const handelChange2=(e)=>{
+  let newarr=[...name]
+  const value=e.target.value
+  if(newarr.includes(value)){
+      newarr=newarr.filter((el)=>el!==value)
+  }else{
+      newarr.push(value)
+  }
+setName(newarr)
+
+}
+
+
+
+
+const handelCh=(e)=>{
+  setOrder(e.target.value)
+}
+
+const handelCh1=(e)=>{
+  setCategory(e.target.value)
+}
+
+
+useEffect(()=>{
+  let obj={
+      brand,category,name
+  }
+  order && (obj.order=order)
+  setSearchParams(obj)
+}, [brand,order,category,name])
+
+     
     const handelClick1=()=>{
 setStatus1(!status1)
 }
@@ -66,10 +124,10 @@ setStatus9(!status9)
         
 {/* <h2 style={{fontSize:"20px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>BottemWear</h2> */}
 
- <Select placeholder='Bottem Wears' w={{  sm:"90%", md: "75%", lg: "70%" ,xl:"70%"}} fontSize="20px" bg="lightgray" ml="10px">
-  <option value='option1'>Jen's Wear</option>
-  <option value='option2'>Canvas</option>
-  <option value='option3'>Denin</option>
+ <Select placeholder='Select the type' w={{  sm:"90%", md: "75%", lg: "70%" ,xl:"70%"}} fontSize="20px" bg="lightgray" ml="10px" onChange={handelCh1}>
+  <option value='T-Shirt'>T-Shirt</option>
+  <option value='Shirts'>Shirts</option>
+  <option value='Bottem-wear'>Bottem-wear</option>
 </Select>
 <br />
 <br />
@@ -97,21 +155,21 @@ setStatus9(!status9)
 <h1 style={sty1} onClick={handelClick1}> <Link to="#">DISCOUNT {status1?"⬆":"⬇"}</Link> </h1>
 
 {status1? <div>
-    <h1> hhhhhh</h1>
-<input type="checkbox" style={sty}/>
-<label style={sty1}>20% off</label> <br/> <br />
+    
+<input type="checkbox" style={sty} value={"5%"} onChange={handelChange2} checked={name.includes("5%")}/>
+<label style={sty1}>5% off</label> <br/> <br />
 
-<input type="checkbox" style={sty}/>
-<label style={sty1}>30% off</label> <br /><br />
+<input type="checkbox" style={sty}  value={"10%"} onChange={handelChange2} checked={name.includes("10%")}/>
+<label style={sty1}>10% off</label> <br /><br />
 
-<input type="checkbox" style={sty}/>
+<input type="checkbox" style={sty}  value={"20%"} onChange={handelChange2} checked={name.includes("20%")}/>
+<label style={sty1}>20% off</label><br /><br />
+
+<input type="checkbox" style={sty}  value={"30%"} onChange={handelChange2} checked={name.includes("30%")}/>
+<label style={sty1}>30% off</label><br /><br />
+
+<input type="checkbox" style={sty}  value={"40%"} onChange={handelChange2} checked={name.includes("40%")}/>
 <label style={sty1}>40% off</label><br /><br />
-
-<input type="checkbox" style={sty}/>
-<label style={sty1}>50% off</label><br /><br />
-
-<input type="checkbox" style={sty}/>
-<label style={sty1}>60% off</label><br /><br />
 
 </div>:""}
 
@@ -126,20 +184,20 @@ setStatus9(!status9)
 
 {status2? <div>
     
-<input type="checkbox" style={sty}/>
+<input type="checkbox" style={sty} value={"ADIDAS"} onChange={handelChange1} checked={brand.includes("ADIDAS")}/>
 <label style={sty1}>ADIDAS</label> <br/> <br />
 
-<input type="checkbox" style={sty}/>
+<input type="checkbox" style={sty} value={"Allen Solly"} onChange={handelChange1} checked={brand.includes("Allen Solly")}/>
 <label style={sty1}>
 Allen Solly</label> <br /><br />
 
-<input type="checkbox" style={sty}/>
+<input type="checkbox" style={sty} value={"CUTIEKINS"} onChange={handelChange1} checked={brand.includes("CUTIEKINS")}/>
 <label style={sty1}>CUTIEKINS</label><br /><br />
 
-<input type="checkbox" style={sty}/>
+<input type="checkbox" style={sty} value={"DRESSBERRY"} onChange={handelChange1} checked={brand.includes("DRESSBERRY")}/>
 <label style={sty1}>Dressberry</label><br /><br />
 
-<input type="checkbox" style={sty}/>
+<input type="checkbox" style={sty} value={"FILA"} onChange={handelChange1} checked={brand.includes("FILA")}/>
 <label style={sty1}>FILA</label><br /><br />
 
 </div>:""}
@@ -197,10 +255,10 @@ Allen Solly</label> <br /><br />
         
 {/* <h2 style={{fontSize:"20px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px"}}>BottemWear</h2> */}
 
- <Select  w={{  sm:"90%", md: "75%", lg: "70%" ,xl:"70%"}} fontSize="20px" bg="lightgray" ml="10px">
- <option value='option2'>Filter (Price)</option>
-  <option value='option1'>Low to High</option>
-  <option value='option2'>High to Low</option>
+ <Select  w={{  sm:"90%", md: "75%", lg: "70%" ,xl:"70%"}} fontSize="20px" bg="lightgray" ml="10px" onChange={handelCh}>
+
+  <option value='asc'>Low to High</option>
+  <option value='desc'>High to Low</option>
  
 </Select>
 <br />

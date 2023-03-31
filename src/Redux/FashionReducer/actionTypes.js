@@ -1,0 +1,3 @@
+export const REQUEST_STATE="REQUEST_STATE"
+export const SUCCESS_STATE="SUCCESS_STATE"
+export const ERROR_STATE="ERROR_STATE"   
