@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as RouterLink } from "react-router-dom";
 import {
   Button,
   Card,
@@ -18,7 +19,7 @@ import {
   EditIcon,
 } from "@chakra-ui/icons";
 
-function AdminsDataCard({ image1, brand, title, price, name, category }) {
+function AdminsDataCard({ image1, brand, id, price, name, category }) {
   return (
     <Card style={{ marginTop: "5px", display: "flex" }}>
       {/* <div
@@ -57,7 +58,7 @@ function AdminsDataCard({ image1, brand, title, price, name, category }) {
         </div>
       </div> */}
       <div style={{ display: "flex" }}>
-        <Image border={"1px solid grey"} w={"8%"} src={image1} />
+        <Image border={"1px solid grey"} w={"8%"} h={"8%"} src={image1} />
       </div>
       <Table>
         <Tbody>
@@ -78,9 +79,11 @@ function AdminsDataCard({ image1, brand, title, price, name, category }) {
               <Text> {category} </Text>
             </Td>
             <Td>
-              <Button>
-                <EditIcon w={7} h={7} color="green" />
-              </Button>
+              <RouterLink to={`/edit/${id}`}>
+                <Button>
+                  <EditIcon w={7} h={7} color="green" />
+                </Button>
+              </RouterLink>
             </Td>
             <Td>
               <Button>
