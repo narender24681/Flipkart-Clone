@@ -1,13 +1,13 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { Home } from "../Pages/Home/Home";
-import {CartPage} from "../Pages/Cart/CartPage";
+import { CartPage } from "../Pages/Cart/CartPage";
 import Dashboard from "../Adminsfz/Dashboard";
 import AllAddminProducts from "./../Adminsfz/AllAddminProducts";
 import EditDash from "./../Adminsfz/EditDash";
 import { CheckoutPage } from "../Pages/Checkout/CheckoutPage";
-import { OrderSuccessPage } from "../Pages/order-sucess/OrderSuccessPage";import SingleProduct from "../Pages/ProductCard/SingleProduct";
-
+import { OrderSuccessPage } from "../Pages/order-sucess/OrderSuccessPage";
+import SingleProduct from "../Pages/ProductCard/SingleProduct";
 
 export const AllRoutes = () => {
   return (
@@ -20,7 +20,11 @@ export const AllRoutes = () => {
       <Route path="/checkout" element={<CheckoutPage />} />
       <Route path="/order-sucess" element={<OrderSuccessPage />} />
       <Route path="/admin-dashboard" element={<Dashboard />}></Route>
-      <Route path="/admin-products" element={<AllAddminProducts />}></Route>  <Route path="/SingleProduct" element={<SingleProduct />}></Route>
+      <Route
+        path="/admin-products"
+        element={<AllAddminProducts />}
+      ></Route>{" "}
+      <Route path="/SingleProduct" element={<SingleProduct />}></Route>
     </Routes>
   );
 };
