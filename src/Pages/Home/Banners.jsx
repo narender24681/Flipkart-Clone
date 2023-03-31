@@ -45,7 +45,7 @@ const CustomPrevArrow = (props) => {
   const { className, style, onClick } = props;
 
   return (
-    <div className={className} style={{ ...style, marginLeft: "30px", zIndex: "1" }} onClick={onClick} />
+    <div className={className} style={{ ...style, marginLeft: "30px", zIndex: "1", backgroundColor: "lightGrey", borderRadius: "50%", paddingLeft: "0.3px", paddingTop: "1px" }} onClick={onClick} />
   )
 }
 
@@ -53,6 +53,6 @@ const CustomNextArrow = (props) => {
   const { className, style, onClick } = props;
 
   return (
-    <div className={className} style={{ ...style, marginRight: "30px" }} onClick={onClick} />
+    <div className={className} style={{ ...style, marginRight: "30px", backgroundColor: "lightGrey", borderRadius: "50%", paddingLeft: "0.3px", paddingTop: "1px" }} onClick={onClick} />
   )
 }
