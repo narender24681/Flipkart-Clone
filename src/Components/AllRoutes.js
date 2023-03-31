@@ -20,10 +20,7 @@ export const AllRoutes = () => {
       <Route path="/checkout" element={<CheckoutPage />} />
       <Route path="/order-sucess" element={<OrderSuccessPage />} />
       <Route path="/admin-dashboard" element={<Dashboard />}></Route>
-      <Route
-        path="/admin-products"
-        element={<AllAddminProducts />}
-      ></Route>{" "}
+      <Route path="/admin-products" element={<AllAddminProducts />}></Route>
       <Route path="/SingleProduct" element={<SingleProduct />}></Route>
     </Routes>
   );
