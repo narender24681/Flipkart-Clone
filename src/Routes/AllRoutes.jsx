@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 
 import SingleProduct from "../Pages/ProductCard/SingleProduct";
 
-import Home from "../Pages/Home";
+import { Home } from "../Pages/Home/Home";
 
 const AllRoutes = () => {
   return (

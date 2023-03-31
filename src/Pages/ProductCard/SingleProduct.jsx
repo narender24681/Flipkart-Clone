@@ -23,7 +23,7 @@ import { BiFileBlank, BiHeart, BiShareAlt } from "react-icons/bi";
 
 import { Link } from "react-router-dom";
 
-import ImageCaraosel from "../../Components/SingleProduct/ImageCaraosel";
+import ImageCaraosel from "../../Components/SingleProduct/ImageCarousel";
 
 import Styles from "../../Style/Single.module.css";
 
