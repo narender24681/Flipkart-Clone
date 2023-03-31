@@ -29,8 +29,6 @@ const useStyles = makeStyles(() => ({
 function AlertDialogBox({ itemId, isOpenDialog = false, handleClose, type }) {
 
   const classes = useStyles();
-
-
   return (
     <div>
       <Dialog
@@ -76,4 +74,5 @@ function AlertDialogBox({ itemId, isOpenDialog = false, handleClose, type }) {
     </div>
   );
 }
+
 export default AlertDialogBox;
