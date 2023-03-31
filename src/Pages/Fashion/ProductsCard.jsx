@@ -71,13 +71,14 @@ function ProductsCard({data}) {
           // width="110%"
           
         />
-<h2>{data.name}</h2>
+<h2>{data.category}</h2>
+<h2>{data.brand}</h2>
 
 <h2 style={{fontSize:"20px"}}>Men Solid Polo Neck Black  </h2>
 
 {/* <img style={{width:"70%",marginTop:"17px",marginLeft:"25px"}} src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png" alt="gh" /> */}
 
-<h3>₹{data.price}  <h3 style={{color:"green"}}>70% off</h3></h3>  
+<h3>₹{data.price}  <h3 style={{color:"green"}}>{data.name} off</h3></h3>  
 <h3 style={{color:"brown",fontSize:"20px"}}>Hot Deal</h3>  
   
 <h3 style={{fontSize:"17px"}}>Free Delivery</h3>
