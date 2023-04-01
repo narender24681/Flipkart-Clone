@@ -2,6 +2,7 @@ import {
   ADD_PRODUCTS_SUCCSESS,
   DETADM_PRODUCTS_SUCCSESS,
   GET_PRODUCTS_SUCCESS,
+  PATCH_PRODUCTS_SUCCSESS,
   PRODUCTS_FAILURE,
   PRODUCTS_REQUEST,
 } from "./actionTypes";
@@ -26,6 +27,10 @@ export const reducer = (state = initialState, action) => {
         isError: false,
         electronics: action.payload,
       };
+
+    case PATCH_PRODUCTS_SUCCSESS:
+      return { ...state, isLoading: false };
+
     default:
       return state;
   }

@@ -4,8 +4,10 @@ import LeftSide from "./LeftSide";
 import MiddleSide from "./MiddleSide";
 import RightSide from "./RightSide";
 import { Box, useColorModeValue } from "@chakra-ui/react";
+import Edit from "./Edit";
+import EditDetails from "./EditDetails";
 
-export default function Dashboard() {
+export default function EditDash() {
   return (
     <div>
       <Box bg={"yellow"} color={"black"} fontFamily={"cursive"}>
@@ -38,16 +40,23 @@ export default function Dashboard() {
         </Box>
         <Box
           // bg={useColorModeValue("blue.100", "blue.700")}
+          display={"flex"}
+          gap={"15px"}
           width={"67%"}
           h={"100%"}
           boxShadow={
             "rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px"
           }
         >
-          <MiddleSide />
+          <div style={{ height: "90vh", width: "50%" }}>
+            <EditDetails />
+          </div>
+          <div style={{ width: "50%" }}>
+            <Edit />
+          </div>
         </Box>
         <Box
-          bg={useColorModeValue("#ecc94b", "#ecc94b")}
+          bg={useColorModeValue("#fb641b", "tomato")}
           width={"16%"}
           h={"89vh"}
           p={"10px"}
