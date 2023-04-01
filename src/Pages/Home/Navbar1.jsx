@@ -87,7 +87,7 @@ function MediumAndLargeScreenNavbarItems() {
             <Searchbar />
 
             <Menu>
-                <MenuButton _hover={{ cursor: "pointer" }} fontSize="md" fontWeight="600" color="white" as={Text} rightIcon={<ChevronDownIcon color="red" />}>
+                <MenuButton _hover={{ cursor: "pointer" }} fontSize="md" fontWeight="600" color="white" as={Text} righticon={<ChevronDownIcon color="red" />}>
                     My Account
                     <ChevronDownIcon />
                 </MenuButton>
@@ -133,7 +133,7 @@ function MediumAndLargeScreenNavbarItems() {
             <Text display={{ md: "none", lg: "block" }} _hover={{ cursor: "pointer" }} fontSize="md" fontWeight="600" color="white">Become a Seller</Text>
 
             <Menu>
-                <MenuButton _hover={{ cursor: "pointer" }} fontSize="md" fontWeight="600" color="white" as={Text} rightIcon={<ChevronDownIcon color="red" />}>
+                <MenuButton _hover={{ cursor: "pointer" }} fontSize="md" fontWeight="600" color="white" as={Text} righticon={<ChevronDownIcon color="red" />}>
                     More
                     <ChevronDownIcon />
                 </MenuButton>

@@ -596,8 +596,8 @@ const ProductsCarousal1 = ({ banner, products }) => {
         <GridItem colSpan={4}>
           <Slider {...settings}>
             {products.map((el, i) =>
-              <Box lineHeight="1.7" p="10px" height={{base: "200px", md: "250px", lg: "300px"}}>
-                <Image height={{base: "100px", md: "150px", lg: "200px"}} width="100%" key={i} objectFit="contain" src={el.image} alt="" />
+              <Box key={i} lineHeight="1.7" p="10px" height={{base: "200px", md: "250px", lg: "300px"}}>
+                <Image height={{base: "100px", md: "150px", lg: "200px"}} width="100%" objectFit="contain" src={el.image} alt="" />
                 <Text noOfLines={1} fontWeight="500" mt="7px" textAlign="center" fontSize="sm">{el.name}</Text>
                 <Text noOfLines={1} color="#388e3c" textAlign="center" fontSize="sm">{el.price}</Text>
                 <Text noOfLines={1} color="grey" textAlign="center" fontSize="sm">{el.brand}</Text>
