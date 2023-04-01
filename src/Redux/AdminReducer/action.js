@@ -12,7 +12,7 @@ import {
 export const addProducstData = (adData) => (dispatch) => {
   dispatch(addProductsReq());
   axios
-    .post("http://localhost:8088/electronics", adData)
+    .post("http://localhost:8088/products", adData)
     .then((res) => {
       //   console.log(res);
       dispatch(addProductsSuc());
@@ -28,7 +28,7 @@ export const getAllProducts = (dispatch) => {
   dispatch(addProductsReq());
 
   axios
-    .get("http://localhost:8088/electronics")
+    .get("http://localhost:8088/products")
     .then((res) => {
       // console.log(res);
       dispatch(getProductsData(res.data));
@@ -45,7 +45,7 @@ export const editdata = (dataobj, id) => (dispatch) => {
   dispatch({ type: PRODUCTS_REQUEST });
 
   axios
-    .patch(`http://localhost:8088/electronics/${id}`, dataobj)
+    .patch(`http://localhost:8088/products/${id}`, dataobj)
     .then((res) => {
       dispatch({ type: PATCH_PRODUCTS_SUCCSESS });
     })

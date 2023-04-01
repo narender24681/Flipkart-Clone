@@ -13,6 +13,10 @@ import {
 import { DeleteIcon, EditIcon } from "@chakra-ui/icons";
 
 function AdminsDataCard({ image1, brand, id, price, name, category }) {
+  const handleDelete = (id) => {
+    console.log(id);
+  };
+
   return (
     <Card style={{ marginTop: "5px", display: "flex" }}>
       <div style={{ display: "flex" }}>
@@ -21,7 +25,7 @@ function AdminsDataCard({ image1, brand, id, price, name, category }) {
       <Table>
         <Tbody>
           <Tr>
-            <Td>{/* <Image w={"8%"} h={"8%"} src={image1} /> */}</Td>
+            <Td>{id}</Td>
             <Td>
               <Text> {name} </Text>
             </Td>
@@ -43,7 +47,7 @@ function AdminsDataCard({ image1, brand, id, price, name, category }) {
               </RouterLink>
             </Td>
             <Td>
-              <Button>
+              <Button onClick={handleDelete(id)}>
                 <DeleteIcon w={7} h={7} color="red" />
               </Button>
             </Td>
