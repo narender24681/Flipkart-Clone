@@ -116,7 +116,7 @@ export default function Edit() {
                   <FormLabel>Price</FormLabel>
                   <Input
                     placeholder="Enter Price"
-                    type="number"
+                    type="text"
                     name="price"
                     onChange={handleChange}
                     value={data.price}
