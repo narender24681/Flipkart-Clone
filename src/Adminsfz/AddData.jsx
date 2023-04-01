@@ -166,7 +166,7 @@ export default function AddData() {
                 onClick={handleSubmit}
                 loadingText="Submitting"
                 size="lg"
-                bg={"yellow.400"}
+                bg={"orange.400"}
                 color={"white"}
                 _hover={{
                   bg: "yellow.500",

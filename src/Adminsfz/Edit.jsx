@@ -49,7 +49,7 @@ export default function Edit() {
   };
   useEffect(() => {
     const pdata = products.find((ele) => ele.id === +id);
-    console.log(pdata);
+    // console.log(pdata);
     setData(pdata);
   }, []);
 

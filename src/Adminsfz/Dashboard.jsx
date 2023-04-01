@@ -47,7 +47,7 @@ export default function Dashboard() {
           <MiddleSide />
         </Box>
         <Box
-          bg={useColorModeValue("#fb641b", "tomato")}
+          bg={useColorModeValue("#ecc94b", "#ecc94b")}
           width={"16%"}
           h={"89vh"}
           p={"10px"}

@@ -22,7 +22,7 @@ function AdminsDataCard({ image1, brand, id, price, name, category }) {
       <Table>
         <Tbody>
           <Tr>
-            <Td></Td>
+            <Td>{/* <Image w={"8%"} h={"8%"} src={image1} /> */}</Td>
             <Td>
               <Text> {name} </Text>
             </Td>
