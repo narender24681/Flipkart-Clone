@@ -12,236 +12,246 @@
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
     }
   ],
-  "mens":[  {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/m/2/4/m-half-star-one-nb-nicky-boy-original-imagm98suhazbhtk.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": "Men Printed Hooded Neck Black T-Shirt",
-    "price": 1000,
-    "name": "30%",
-    "brand": "ADIDAS",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "T-Shirt",
-    "id": 11
-  },  {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/2/u/v/xl-triple-vv-one-nb-nicky-boy-original-imagny2ggyggpfsm.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": "Men Printed Hooded Neck Black T-Shirt",
-    "price": 230,
-    "name": "40%",
-    "brand": "ADIDAS",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "T-Shirt",
-    "id": 12
-  },  {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/l4zxn680/t-shirt/a/7/c/m-st-colorleaf-navy-smartees-original-imagfs4paqzgkteh.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": "Men Printed Hooded Neck Black T-Shirt",
-    "price": 3000,
-    "name": "20%",
-    "brand": "ADIDAS",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "T-Shirt",
-    "id": 13
-  },  {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/l3j2cnk0/t-shirt/j/n/v/xs-hm-1058black-helmont-original-imagemtdbpfxf3my.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": "Men Printed Hooded Neck Black T-Shirt",
-    "price": 450,
-    "name": "5%",
-    "brand": "Allen Solly",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "T-Shirt",
-    "id": 14
-  }, {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/m/2/4/m-half-star-one-nb-nicky-boy-original-imagm98suhazbhtk.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": "New Look T Shirt",
-    "price": 100,
-    "name": "10%",
-    "brand": "Allen Solly",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "T-Shirt",
-    "id": 15
-  },  {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/2/u/v/xl-triple-vv-one-nb-nicky-boy-original-imagny2ggyggpfsm.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": "Rare New Look ",
-    "price": 200,
-    "name": "30%",
-    "brand": "Allen Solly",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "T-Shirt",
-    "id": 16
-  },  {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/l4zxn680/t-shirt/a/7/c/m-st-colorleaf-navy-smartees-original-imagfs4paqzgkteh.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": "Men Printed Hooded Neck Black T-Shirt",
-    "price": 300, 
-    "name": "20%",
-    "brand": "Allen Solly",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "T-Shirt",
-    "id": 17
-  },  {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/l3j2cnk0/t-shirt/j/n/v/xs-hm-1058black-helmont-original-imagemtdbpfxf3my.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": " Hooded Neck Black T-Shirt",
-    "price": 400,
-    "name": "40%",
-    "brand": "Dressberry",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "T-Shirt",
-    "id": 18
-  },
-  {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/m/2/4/m-half-star-one-nb-nicky-boy-original-imagm98suhazbhtk.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": "Men Printed Hooded Neck Black T-Shirt",
-    "price": 1000,
-    "name": "30%",
-    "brand": "ADIDAS",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "T-Shirt",
-    "id": 19
-  },  {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/l02r1jk0/shirt/6/h/m/xxl-fbrml-r-fibermill-original-imagbxyubcbrsszf.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": "Men Printed Hooded Neck Black T-Shirt",
-    "price": 230,
-    "name": "40%",
-    "brand": "Dressberry",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "Shirts",
-    "id": 20
-  },  {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/l29c9e80/shirt/x/i/a/m-st6-vebnor-original-imagdn6hzgtu8ahh.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": "Men Printed Hooded Neck Black T-Shirt",
-    "price": 3000,
-    "name": "40%",
-    "brand": "Dressberry",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "Shirts",
-    "id": 21
-  },  {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/l3j2cnk0/t-shirt/j/n/v/xs-hm-1058black-helmont-original-imagemtdbpfxf3my.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": "Men Printed Hooded Neck Black T-Shirt",
-    "price": 450,
-    "name": "30%",
-    "brand": "CUTIEKINS",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "T-Shirt",
-    "id": 22
-  }, {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/kokdci80/shirt/j/h/e/46-8894747-roadster-original-imag2zwvajxgnhjj.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": "New Look T Shirt",
-    "price": 100,
-    "name": "20%",
-    "brand": "CUTIEKINS",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "Shirts",
-    "id": 23
-  },  {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/jvtujrk0/shirt/d/k/v/42-2284526-roadster-original-imafgmtufg3ds7xz.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": "Rare New Look ",
-    "price": 200,
-    "name": "10%",
-    "brand": "FILA",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "Shirts",
-    "id": 24
-  },  {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/kzogn0w0/shirt/c/n/x/xl-monikat-magenta-voroxy-original-imagbmqzvhcqhzbv.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": "Men Printed Hooded Neck Black T-Shirt",
-    "price": 300, 
-    "name": "5%",
-    "brand": "FILA",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "Shirts",
-    "id": 25
-  },  {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/shirt/o/q/d/-original-imagfaeknqapmgq5-bb.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": " Hooded Neck Black T-Shirt",
-    "price": 4003,
-    "name": "5%",
-    "brand": "FILA",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "Shirts",
-    "id": 26
-  }
-  ,
-
-
-
-  {
-    "image1": "https://rukminim1.flixcart.com/image/400/400/xif0q/jean/d/o/h/32-18298-1250-levi-s-original-imaggecycdfhhtph.jpeg?q=50",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": " Hooded Neck Black T-Shirt",
-    "price": 4002,
-    "name": "5%",
-    "brand": "ADIDAS",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "Bottem-wear",
-    "id": 27
-  },
-  {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/j/9/c/32-bhdilv22558-being-human-original-imagjhjafjz4phhw.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": " Hooded Neck Black T-Shirt",
-    "price": 4004,
-    "name": "5%",
-    "brand": "ADIDAS",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "Bottem-wear",
-    "id": 28
-  }
-  ,
-  {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/l/f/q/32-36087-0620-levi-s-original-imagh3gtmjf6dsas.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": " Hooded Neck Black T-Shirt",
-    "price": 4005,
-    "name": "10%",
-    "brand": "FILA",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "Bottem-wear",
-    "id": 29
-  },
-  {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/l4oi4cw0/short/1/q/v/3xl-mrt22-cms03-metronaut-original-imagfjffqpzhaggh.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": " Hooded Neck Black T-Shirt",
-    "price": 4006,
-    "name": "20%",
-    "brand": "ADIDAS",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "Bottem-wear",
-    "id": 30
-  },
-  {
-    "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/l/i/y/32-36087-0616-levi-s-original-imagkgv7hggzzqg6.jpeg?q=70",
-    "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-    "title": " Hooded Neck Black T-Shirt",
-    "price": 4008,
-    "name": "10%",
-    "brand": "Dressberry",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "category": "Bottem-wear",
-    "id": 31
-  }
-],
-  "womens":[],
+  "mens": [
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/m/2/4/m-half-star-one-nb-nicky-boy-original-imagm98suhazbhtk.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": "Men Printed Hooded Neck Black T-Shirt",
+      "price": 1000,
+      "name": "30%",
+      "brand": "ADIDAS",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "T-Shirt",
+      "id": 11
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/2/u/v/xl-triple-vv-one-nb-nicky-boy-original-imagny2ggyggpfsm.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": "Men Printed Hooded Neck Black T-Shirt",
+      "price": 230,
+      "name": "40%",
+      "brand": "ADIDAS",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "T-Shirt",
+      "id": 12
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/l4zxn680/t-shirt/a/7/c/m-st-colorleaf-navy-smartees-original-imagfs4paqzgkteh.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": "Men Printed Hooded Neck Black T-Shirt",
+      "price": 3000,
+      "name": "20%",
+      "brand": "ADIDAS",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "T-Shirt",
+      "id": 13
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/l3j2cnk0/t-shirt/j/n/v/xs-hm-1058black-helmont-original-imagemtdbpfxf3my.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": "Men Printed Hooded Neck Black T-Shirt",
+      "price": 450,
+      "name": "5%",
+      "brand": "Allen Solly",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "T-Shirt",
+      "id": 14
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/m/2/4/m-half-star-one-nb-nicky-boy-original-imagm98suhazbhtk.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": "New Look T Shirt",
+      "price": 100,
+      "name": "10%",
+      "brand": "Allen Solly",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "T-Shirt",
+      "id": 15
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/2/u/v/xl-triple-vv-one-nb-nicky-boy-original-imagny2ggyggpfsm.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": "Rare New Look ",
+      "price": 200,
+      "name": "30%",
+      "brand": "Allen Solly",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "T-Shirt",
+      "id": 16
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/l4zxn680/t-shirt/a/7/c/m-st-colorleaf-navy-smartees-original-imagfs4paqzgkteh.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": "Men Printed Hooded Neck Black T-Shirt",
+      "price": 300,
+      "name": "20%",
+      "brand": "Allen Solly",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "T-Shirt",
+      "id": 17
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/l3j2cnk0/t-shirt/j/n/v/xs-hm-1058black-helmont-original-imagemtdbpfxf3my.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": " Hooded Neck Black T-Shirt",
+      "price": 400,
+      "name": "40%",
+      "brand": "Dressberry",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "T-Shirt",
+      "id": 18
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/m/2/4/m-half-star-one-nb-nicky-boy-original-imagm98suhazbhtk.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": "Men Printed Hooded Neck Black T-Shirt",
+      "price": 1000,
+      "name": "30%",
+      "brand": "ADIDAS",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "T-Shirt",
+      "id": 19
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/l02r1jk0/shirt/6/h/m/xxl-fbrml-r-fibermill-original-imagbxyubcbrsszf.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": "Men Printed Hooded Neck Black T-Shirt",
+      "price": 230,
+      "name": "40%",
+      "brand": "Dressberry",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Shirts",
+      "id": 20
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/l29c9e80/shirt/x/i/a/m-st6-vebnor-original-imagdn6hzgtu8ahh.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": "Men Printed Hooded Neck Black T-Shirt",
+      "price": 3000,
+      "name": "40%",
+      "brand": "Dressberry",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Shirts",
+      "id": 21
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/l3j2cnk0/t-shirt/j/n/v/xs-hm-1058black-helmont-original-imagemtdbpfxf3my.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": "Men Printed Hooded Neck Black T-Shirt",
+      "price": 450,
+      "name": "30%",
+      "brand": "CUTIEKINS",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "T-Shirt",
+      "id": 22
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/kokdci80/shirt/j/h/e/46-8894747-roadster-original-imag2zwvajxgnhjj.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": "New Look T Shirt",
+      "price": 100,
+      "name": "20%",
+      "brand": "CUTIEKINS",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Shirts",
+      "id": 23
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/jvtujrk0/shirt/d/k/v/42-2284526-roadster-original-imafgmtufg3ds7xz.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": "Rare New Look ",
+      "price": 200,
+      "name": "10%",
+      "brand": "FILA",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Shirts",
+      "id": 24
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/kzogn0w0/shirt/c/n/x/xl-monikat-magenta-voroxy-original-imagbmqzvhcqhzbv.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": "Men Printed Hooded Neck Black T-Shirt",
+      "price": 300,
+      "name": "5%",
+      "brand": "FILA",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Shirts",
+      "id": 25
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/shirt/o/q/d/-original-imagfaeknqapmgq5-bb.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": " Hooded Neck Black T-Shirt",
+      "price": 4003,
+      "name": "5%",
+      "brand": "FILA",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Shirts",
+      "id": 26
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/400/400/xif0q/jean/d/o/h/32-18298-1250-levi-s-original-imaggecycdfhhtph.jpeg?q=50",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": " Hooded Neck Black T-Shirt",
+      "price": 4002,
+      "name": "5%",
+      "brand": "ADIDAS",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Bottem-wear",
+      "id": 27
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/j/9/c/32-bhdilv22558-being-human-original-imagjhjafjz4phhw.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": " Hooded Neck Black T-Shirt",
+      "price": 4004,
+      "name": "5%",
+      "brand": "ADIDAS",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Bottem-wear",
+      "id": 28
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/l/f/q/32-36087-0620-levi-s-original-imagh3gtmjf6dsas.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": " Hooded Neck Black T-Shirt",
+      "price": 4005,
+      "name": "10%",
+      "brand": "FILA",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Bottem-wear",
+      "id": 29
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/l4oi4cw0/short/1/q/v/3xl-mrt22-cms03-metronaut-original-imagfjffqpzhaggh.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": " Hooded Neck Black T-Shirt",
+      "price": 4006,
+      "name": "20%",
+      "brand": "ADIDAS",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Bottem-wear",
+      "id": 30
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/l/i/y/32-36087-0616-levi-s-original-imagkgv7hggzzqg6.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
+      "title": " Hooded Neck Black T-Shirt",
+      "price": 4008,
+      "name": "10%",
+      "brand": "Dressberry",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "category": "Bottem-wear",
+      "id": 31
+    }
+  ],
+  "womens": [],
   "electronics": [
     {
       "image1": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/r/q/m/-original-imagca5ajerqpfjy.jpeg?q=70",
       "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
       "title": "APPLE iPhone 13 (Green, 128 GB)",
-      "price": "61,999",
+      "price": "65999",
       "name": "IPhone",
       "brand": "APPLE ",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
