@@ -17,6 +17,7 @@ import LoaderSpinner from "../../Components/CartPage/LoaderSpinner";
 import ToastMessageContainer from "../../Components/CartPage/ToastMessageContainer";
 
 
+
 const shieldIcon ="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/shield_5f9216.png";
 const superCoin ="https://rukminim1.flixcart.com/lockin/736/176/images/promotion_banner_v2_inactive_2.png?q=50";
 
