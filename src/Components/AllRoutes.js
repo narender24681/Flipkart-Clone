@@ -6,12 +6,17 @@ import Dashboard from "../Adminsfz/Dashboard";
 import AllAddminProducts from "./../Adminsfz/AllAddminProducts";
 import { CheckoutPage } from "../Pages/Checkout/CheckoutPage";
 import { OrderSuccessPage } from "../Pages/order-sucess/OrderSuccessPage";
+import Mens from "../Pages/Fashion/Mens";
+import Womens from "../Pages/Fashion/Womens";
 export const AllRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/cart" element={<CartPage />} />
       <Route path="/checkout" element={<CheckoutPage />} />
+      <Route path="/mens" element={<Mens/>} />
+      <Route path="/womens" element={<Womens />} />
+      {/* <Route path="/kids" element={<CheckoutPage />} /> */}
       <Route path="/order-sucess" element={<OrderSuccessPage />} />
       <Route path="/admin-dashboard" element={<Dashboard />}></Route>
       <Route path="/admin-products" element={<AllAddminProducts />}></Route>
