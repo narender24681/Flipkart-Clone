@@ -1,5 +1,6 @@
 import React from "react";
 import { Link as RouterLink } from "react-router-dom";
+import { deleteDatas } from ".././/Redux/AdminReducer/action";
 import {
   Button,
   Card,
@@ -11,10 +12,14 @@ import {
   Tr,
 } from "@chakra-ui/react";
 import { DeleteIcon, EditIcon } from "@chakra-ui/icons";
+import { useDispatch } from "react-redux";
 
 function AdminsDataCard({ image1, brand, id, price, name, category }) {
+  const dispatch = useDispatch();
+
   const handleDelete = (id) => {
-    console.log(id);
+    dispatch(deleteDatas(id));
+    // console.log(id);
   };
 
   return (
@@ -47,7 +52,7 @@ function AdminsDataCard({ image1, brand, id, price, name, category }) {
               </RouterLink>
             </Td>
             <Td>
-              <Button onClick={handleDelete(id)}>
+              <Button onClick={() => handleDelete(id)}>
                 <DeleteIcon w={7} h={7} color="red" />
               </Button>
             </Td>

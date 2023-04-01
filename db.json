@@ -320,17 +320,6 @@
       "id": 29
     },
     {
-      "image1": "https://rukminim1.flixcart.com/image/612/612/l4oi4cw0/short/1/q/v/3xl-mrt22-cms03-metronaut-original-imagfjffqpzhaggh.jpeg?q=70",
-      "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
-      "title": " Hooded Neck Black T-Shirt",
-      "price": 4006,
-      "name": "20%",
-      "brand": "ADIDAS",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      "category": "Bottem-wear",
-      "id": 30
-    },
-    {
       "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/l/i/y/32-36087-0616-levi-s-original-imagkgv7hggzzqg6.jpeg?q=70",
       "image2": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/h/b/j/-original-imagca5anduzt9rh.jpeg?q=70",
       "title": " Hooded Neck Black T-Shirt",
@@ -450,6 +439,28 @@
       "category": "Mens",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
       "id": 50
+    },
+    {
+      "image1": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRv6xKYqWff-orxrzSQbrpp8qSQZH3sj8_aI7Wm7SEvYG9I4Wot7aLGFYRHyP-86Jz-iQj5Oah_Wvjn5DMgMwectavhJIx8WmRZXI8C3X_uvRhn1DYjMbEiEw&usqp=CAc",
+      "image2": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSW3Fc3BwGxlT-yR2roh2TbEiojhKJEtDwg6XDWFnsGCJ0Hc1OVkKVDfnuLqQte3gWYqit0rsWldQ&usqp=CAc",
+      "title": "Nordic Terracotta Check",
+      "price": "599",
+      "name": "New Febiric",
+      "brand": "Live's",
+      "category": "Mens",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "id": 51
+    },
+    {
+      "image1": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT8Pqo5Y8t6T97adQyJnGA-BoKLWcYfCZSvxPwUGseONQPe6eLeMr3A1Wk7y3G_6BNB43NDIFD1Dno3pWVKLpHw8Qo8pw5T0gR19FuDOhNhvW-MJZi1CvetZVjo&usqp=CAc",
+      "image2": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT8Pqo5Y8t6T97adQyJnGA-BoKLWcYfCZSvxPwUGseONQPe6eLeMr3A1Wk7y3G_6BNB43NDIFD1Dno3pWVKLpHw8Qo8pw5T0gR19FuDOhNhvW-MJZi1CvetZVjo&usqp=CAc",
+      "title": "Stylish mens pant",
+      "price": "999",
+      "name": "Styles",
+      "brand": "Addidas",
+      "category": "Mens",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "id": 52
     }
   ],
   "mens": [
@@ -683,6 +694,17 @@
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
       "category": "Bottem-wear",
       "id": 31
+    },
+    {
+      "image1": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/2/u/v/xl-triple-vv-one-nb-nicky-boy-original-imagny2ggyggpfsm.jpeg?q=70",
+      "image2": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/2/u/v/xl-triple-vv-one-nb-nicky-boy-original-imagny2ggyggpfsm.jpeg?q=70",
+      "title": "New T-Shirt",
+      "price": "399",
+      "name": "Febric TShirt",
+      "brand": "Addidas",
+      "category": "Mens",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "id": 32
     }
   ],
   "womens": [],
