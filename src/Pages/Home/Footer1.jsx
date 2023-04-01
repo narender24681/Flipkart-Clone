@@ -8,9 +8,11 @@ export const Footer1 = () => {
   });
 
   return (
-    <>
-      {isMediumScreen ? <TillMediumScreensFooter /> : <LargeAndAboveScreensFooter />}
-    </>
+    <Center>
+      <Box width={{ base: "100%", "2xl": "1500px" }}>
+        {isMediumScreen ? <TillMediumScreensFooter /> : <LargeAndAboveScreensFooter />}
+      </Box>
+    </Center>
   )
 }
 

@@ -1,15 +1,11 @@
 import { Box, Center, Text } from '@chakra-ui/react';
 import React from 'react';
 import { Banners } from './Banners';
-import { Footer1 } from './Footer1';
-import { Navbar1 } from './Navbar1';
 import { ProductsCarousal } from './ProductsCarousal';
 
 export const Home = () => {
   return (
     <Box>
-      <Navbar1 />
-
       <Center>
         <Box width={{ base: "100%", "2xl": "1500px" }}>
           <Banners />
@@ -17,8 +13,6 @@ export const Home = () => {
           <ProductsCarousal />
 
           <HomeBotton />
-
-          <Footer1 />
         </Box>
       </Center>
     </Box>
