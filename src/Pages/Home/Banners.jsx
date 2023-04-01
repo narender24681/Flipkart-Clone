@@ -1,5 +1,5 @@
-import React from 'react';
-import { Box, Center } from '@chakra-ui/react';
+import React from "react";
+import { Box, Center } from "@chakra-ui/react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -32,27 +32,35 @@ export const Banners = () => {
     <Center>
       <Box mt={4} w="100%">
         <Slider {...settings}>
-          {bannerUrls.map((el, i) =>
+          {bannerUrls.map((el, i) => (
             <img key={i} objectfit="contain" src={el} alt="" />
-          )}
+          ))}
         </Slider>
       </Box>
     </Center>
-  )
-}
+  );
+};
 
 const CustomPrevArrow = (props) => {
   const { className, style, onClick } = props;
 
   return (
-    <div className={className} style={{ ...style, marginLeft: "30px", zIndex: "1" }} onClick={onClick} />
-  )
-}
+    <div
+      className={className}
+      style={{ ...style, marginLeft: "30px", zIndex: "1" }}
+      onClick={onClick}
+    />
+  );
+};
 
 const CustomNextArrow = (props) => {
   const { className, style, onClick } = props;
 
   return (
-    <div className={className} style={{ ...style, marginRight: "30px" }} onClick={onClick} />
-  )
-}
+    <div
+      className={className}
+      style={{ ...style, marginRight: "30px" }}
+      onClick={onClick}
+    />
+  );
+};
