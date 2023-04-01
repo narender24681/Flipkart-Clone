@@ -1,5 +1,4 @@
 import React, { useState, useEffct } from "react";
-import { useDispatch } from "react-redux";
 
 import {
   Flex,
@@ -14,9 +13,46 @@ import {
   useColorModeValue,
   Select,
 } from "@chakra-ui/react";
-import { addProducstData } from "../Redux/AdminReducer/action";
+import { useParams } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
+import { editdata, getAllProducts } from "../Redux/AdminReducer/action";
+
+const initialState = {
+  image1: "",
+  image2: "",
+  title: "",
+  price: "₹",
+  name: "",
+  brand: "",
+  category: "",
+  // description:
+  //   "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+};
 
 export default function Edit() {
+  const { id } = useParams();
+  const [data, setData] = useState(initialState);
+  const products = useSelector((store) => store.adminsReduer.electronics);
+  const dispatch = useDispatch();
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setData((prev) => {
+      return { ...prev, [name]: value };
+    });
+  };
+
+  const handleSubmit = () => {
+    // console.log(data);
+    dispatch(editdata(data, id));
+  };
+  useEffect(() => {
+    const pdata = products.find((ele) => ele.id === +id);
+    // console.log(pdata);
+    setData(pdata);
+  }, []);
+
   return (
     <Flex
       mt={"10px"}
@@ -38,7 +74,8 @@ export default function Edit() {
                 placeholder="Enter Image-1"
                 type="text"
                 name="image1"
-                isRequired
+                onChange={handleChange}
+                value={data.image1}
               />
             </FormControl>
             <FormControl id="email" isRequired>
@@ -47,27 +84,30 @@ export default function Edit() {
                 placeholder="Enter Image-2"
                 type="text"
                 name="image2"
-                isRequired
+                onChange={handleChange}
+                value={data.image2}
               />
             </FormControl>
-            <FormControl id="text" isRequired>
+            <FormControl id="text">
               <FormLabel>Title</FormLabel>
               <Input
                 placeholder="Enter Title"
                 type="text"
                 name="title"
-                isRequired
+                onChange={handleChange}
+                value={data.title}
               />
             </FormControl>
             <HStack>
               <Box>
-                <FormControl id="firstName" isRequired>
+                <FormControl id="firstName">
                   <FormLabel>Name</FormLabel>
                   <Input
                     placeholder="Enter Name"
                     type="text"
                     name="name"
-                    isRequired
+                    onChange={handleChange}
+                    value={data.name}
                   />
                 </FormControl>
               </Box>
@@ -78,26 +118,33 @@ export default function Edit() {
                     placeholder="Enter Price"
                     type="number"
                     name="price"
-                    isRequired
+                    onChange={handleChange}
+                    value={data.price}
                   />
                 </FormControl>
               </Box>
             </HStack>
             <HStack>
-              <FormControl id="password" isRequired>
+              <FormControl id="password">
                 <FormLabel>Brand</FormLabel>
                 <InputGroup>
                   <Input
                     placeholder="Enter Brand"
                     type={"text"}
                     name="brand"
-                    isRequired
+                    onChange={handleChange}
+                    value={data.brand}
                   />
                 </InputGroup>
               </FormControl>
               <FormControl>
                 <FormLabel>Category</FormLabel>
-                <Select name="category" isRequired>
+
+                <Select
+                  name="category"
+                  onChange={handleChange}
+                  value={data.category}
+                >
                   <option>Select</option>
                   <option>Mens</option>
                   <option>Womens</option>
@@ -107,19 +154,21 @@ export default function Edit() {
               </FormControl>
             </HStack>
 
-            <FormControl id="password" isRequired>
+            <FormControl id="password">
               <FormLabel>Description</FormLabel>
               <InputGroup>
                 <Input
                   placeholder="Enter Description"
                   type={"text"}
-                  isRequired
+                  onChange={handleChange}
+                  value={data.description}
                 />
               </InputGroup>
             </FormControl>
 
             <Stack spacing={10} pt={2}>
               <Button
+                onClick={handleSubmit}
                 loadingText="Submitting"
                 size="lg"
                 bg={"yellow.400"}

@@ -11,61 +11,19 @@ import {
   Thead,
   Tr,
 } from "@chakra-ui/react";
-import {
-  PhoneIcon,
-  AddIcon,
-  WarningIcon,
-  DeleteIcon,
-  EditIcon,
-} from "@chakra-ui/icons";
+import { DeleteIcon, EditIcon } from "@chakra-ui/icons";
 
 function AdminsDataCard({ image1, brand, id, price, name, category }) {
   return (
     <Card style={{ marginTop: "5px", display: "flex" }}>
-      {/* <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-evenly",
-        }}
-      >
-        <div style={{ width: "10%", border: "1px solid grey" }}>
-          <img style={{ width: "100%" }} src={image1} />
-        </div>
-
-        <div style={{ border: "1px solid grey" }}>
-          <Text>₹ {price}</Text>
-          <Text> {brand} </Text>
-        </div>
-        <div style={{ border: "1px solid grey" }}>
-          <Text>₹ {price}</Text>
-          <Text color={"red"}> {name} </Text>
-        </div>
-        <div
-          style={{
-            display: "flex",
-            width: "12%",
-            justifyContent: "space-between",
-            border: "1px solid grey",
-          }}
-        >
-          <Button>
-            <EditIcon w={7} h={7} color="green" />
-          </Button>
-          <Button>
-            <DeleteIcon w={7} h={7} color="red" />
-          </Button>
-        </div>
-      </div> */}
       <div style={{ display: "flex" }}>
-        <Image border={"1px solid grey"} w={"8%"} h={"8%"} src={image1} />
+        <Image w={"8%"} h={"8%"} src={image1} />
       </div>
       <Table>
         <Tbody>
           <Tr>
-            <Td></Td>
+            <Td>{/* <Image w={"8%"} h={"8%"} src={image1} /> */}</Td>
             <Td>
-              {/* <Text> {title.substring(0, 20)} </Text> */}
               <Text> {name} </Text>
             </Td>
 
