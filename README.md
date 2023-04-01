@@ -1,4 +1,3 @@
-
 # innate-partner-2755
 
 ## Commands
@@ -11,4 +10,3 @@
 6. Chakra UI
 7. React-Router-Dom
 8. Json-Server
-

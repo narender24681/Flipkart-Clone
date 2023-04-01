@@ -23,6 +23,10 @@
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
+<<<<<<< HEAD
+    "react-multi-carousel": "^2.8.2",
+=======
+>>>>>>> main
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
