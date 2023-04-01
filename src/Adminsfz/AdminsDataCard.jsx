@@ -8,7 +8,6 @@ import {
   Tbody,
   Td,
   Text,
-  Thead,
   Tr,
 } from "@chakra-ui/react";
 import { DeleteIcon, EditIcon } from "@chakra-ui/icons";

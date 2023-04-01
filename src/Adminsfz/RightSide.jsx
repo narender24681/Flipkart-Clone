@@ -9,7 +9,8 @@ export default function RightSide() {
       role: "Admin Panel Creator",
     },
     {
-      images: "https://bit.ly/sage-adebayo",
+      images:
+        "https://user-images.githubusercontent.com/106812942/229299672-5d9c074b-3c99-4ff7-b9f0-590f5ea80285.jpg",
       name: "Narender Chepuri",
       badges: "New",
       role: "Home page Creator",
@@ -27,14 +28,14 @@ export default function RightSide() {
         "https://ca.slack-edge.com/T04QH584W4W-U04S114LR5E-f02af4850ef5-72",
       name: "Supriya Shahoo",
       badges: "New",
-      role: "UI Engineer Creator",
+      role: "Cart Creator",
     },
     {
       images:
         "https://ca.slack-edge.com/T04QH584W4W-U04RB8C23NF-6a7f27ecfe56-512",
       name: "Rajat Agarwal",
       badges: "New",
-      role: "UI Engineer Creator",
+      role: "Details Creator",
     },
   ];
 
