@@ -1,4 +1,20 @@
 {
+  "users": [
+    {
+      "email": "narender24681@gmail.com",
+      "firstName": "fn",
+      "lastName": "fn",
+      "password": "qwerty",
+      "id": 1
+    },
+    {
+      "email": "eve.holt@reqres.in",
+      "firstName": "fn",
+      "lastName": "lm",
+      "password": "qwerty",
+      "id": 2
+    }
+  ],
   "products": [
     {
       "id": 1,
