@@ -1,5 +1,4 @@
 import React, { useState, useEffct } from "react";
-import { useDispatch } from "react-redux";
 
 import {
   Flex,
@@ -14,9 +13,30 @@ import {
   useColorModeValue,
   Select,
 } from "@chakra-ui/react";
-import { addProducstData } from "../Redux/AdminReducer/action";
+import { useParams } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { useEffect } from "react";
 
 export default function Edit() {
+  const { id } = useParams();
+  const [data, setData] = useState({});
+  // console.log(id);
+  const products = useSelector((store) => store.adminsReduer.electronics);
+  // console.log(products);
+
+  // const handleChange = (e) => {
+  // const { name, value } = e.target;
+  // console.log(name, value);
+  // };
+
+  useEffect(() => {
+    const pdata = products.find((ele) => ele.id === +id);
+    // console.log(pdata);
+    setData(pdata);
+    //   // console.log(id);;
+  }, []);
+  console.log(data);
+
   return (
     <Flex
       mt={"10px"}
@@ -38,6 +58,8 @@ export default function Edit() {
                 placeholder="Enter Image-1"
                 type="text"
                 name="image1"
+                // onChange={handleChange}
+                // value={data.image1}
                 isRequired
               />
             </FormControl>
@@ -47,6 +69,8 @@ export default function Edit() {
                 placeholder="Enter Image-2"
                 type="text"
                 name="image2"
+                // onChange={handleChange}
+                // value={data.image2}
                 isRequired
               />
             </FormControl>
@@ -56,6 +80,8 @@ export default function Edit() {
                 placeholder="Enter Title"
                 type="text"
                 name="title"
+                // onChange={handleChange}
+                // value={data.title}
                 isRequired
               />
             </FormControl>
@@ -67,6 +93,8 @@ export default function Edit() {
                     placeholder="Enter Name"
                     type="text"
                     name="name"
+                    // onChange={handleChange}
+                    // value={data.name}
                     isRequired
                   />
                 </FormControl>
@@ -78,6 +106,8 @@ export default function Edit() {
                     placeholder="Enter Price"
                     type="number"
                     name="price"
+                    // onChange={handleChange}
+                    // value={data.price}
                     isRequired
                   />
                 </FormControl>
@@ -91,13 +121,21 @@ export default function Edit() {
                     placeholder="Enter Brand"
                     type={"text"}
                     name="brand"
+                    // onChange={handleChange}
+                    // value={data.brand}
                     isRequired
                   />
                 </InputGroup>
               </FormControl>
               <FormControl>
                 <FormLabel>Category</FormLabel>
-                <Select name="category" isRequired>
+
+                <Select
+                  name="category"
+                  // onChange={handleChange}
+                  // value={data.category}
+                  isRequired
+                >
                   <option>Select</option>
                   <option>Mens</option>
                   <option>Womens</option>
@@ -113,6 +151,8 @@ export default function Edit() {
                 <Input
                   placeholder="Enter Description"
                   type={"text"}
+                  // onChange={handleChange}
+                  // value={data.description}
                   isRequired
                 />
               </InputGroup>

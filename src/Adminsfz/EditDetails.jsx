@@ -19,7 +19,7 @@ export default function EditDetails() {
     movieDetailes && setMovieDetails(movieDetailes);
   }, []);
   //   // -----------must------------
-  console.log(movieDetailes);
+  //   console.log(movieDetailes);
 
   return (
     <div style={{ margin: "15px auto" }}>
