@@ -1,18 +1,16 @@
 import {
-  Flex,
-  Circle,
+  
+
   Box,
   Image,
-  Badge,
+  
   useColorModeValue,
-  Icon,
-  chakra,
-  Tooltip,
+
 
 } from '@chakra-ui/react';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import { BsStar, BsStarFill, BsStarHalf } from 'react-icons/bs';
-import { FiShoppingCart } from 'react-icons/fi';
+// import { FiShoppingCart } from 'react-icons/fi';
 
 function Rating({ rating, numReviews }) {
   return (

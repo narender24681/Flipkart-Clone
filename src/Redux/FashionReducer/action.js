@@ -12,3 +12,12 @@ dispatch({type:SUCCESS_STATE,payload:res.data})
     )
 }
 
+export const getProductsclothsWomen=(obj)=>(dispatch)=>{
+    dispatch({type:REQUEST_STATE})
+    axios.get(" http://localhost:8088/womens",obj).then((res)=>{
+dispatch({type:SUCCESS_STATE,payload:res.data})
+    }).catch(()=>
+        dispatch({type:ERROR_STATE})
+    )
+}
+
