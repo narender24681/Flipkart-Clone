@@ -55,23 +55,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Packeges
+## Packages
 
 1. Axios
 2. React-redux
