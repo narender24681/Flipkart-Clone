@@ -23,6 +23,7 @@ import { BiFileBlank, BiHeart, BiShareAlt } from "react-icons/bi";
 
 import { Link } from "react-router-dom";
 
+
 // import ImageCaraosel from "../../Components/SingleProduct/ImageCarousel";
 
 import Styles from "../../Style/Single.module.css";
@@ -46,6 +47,14 @@ const SingleProduct = () => {
 const data=products.find((el)=>el.id === +id)
 setData1(data)
   },[id])
+
+import ImageCaraosel from "../../Components/SingleProduct/ImageCarousel";
+
+import Styles from "../../Style/Single.module.css";
+
+const SingleProduct = () => {
+  // const [data,setData] = useState("");
+
 
   const toast = useToast();
 
@@ -78,9 +87,13 @@ setData1(data)
 
   return (
     <>
+
    
       <Box w={"100%"}>
       
+
+      <Box w={"100%"}>
+
         <Flex py={2} pl={2} pr={2} gap="2px" className={Styles.main_flex}>
           <Box w="50%">
             <Box mt={2}>
@@ -88,13 +101,21 @@ setData1(data)
                 <BiHeart size={25} />
               </Text>
               <Image
+
                 src={data1?.image1}
+
+                src="https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177772-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NzUyMnxpbWFnZS9qcGVnfGltYWdlcy9oNjIvaGJhLzk4OTA1NDc2NjI4NzguanBnfDk1NjAyMGYwZmY2MTYzNWRkYWFmNzg0ODg1YTRkMWY2ZmQzY2I0YjliNDNjZTZlNTc0YjA2ODAwMzg3YWIyNTI"
+
                 w={"60%"}
                 m="auto"
               />
             </Box>
             <Box mt={10}>
+
               {/* <ImageCaraosel /> */}
+
+              <ImageCaraosel />
+
             </Box>
             <Flex mt={10}>
               <Image
@@ -110,8 +131,12 @@ setData1(data)
           <Box w="60%" pl={5} pt="10px">
             <Box>
               <Text fontSize={20} fontWeight="500">
+
                 {/* Apple iPhone 14 Plus 256 GB, Blue(493177772) */}
                 {data1?.title}
+
+                Apple iPhone 14 Plus 256 GB, Blue(493177772)
+
               </Text>
               <Flex alignItems={"center"} gap="5px" mt={5}>
                 <Checkbox isInvalid>Add to Compare</Checkbox>
@@ -204,8 +229,12 @@ setData1(data)
                   <Flex alignItems={"center"} gap={3}>
                     <Text>Deal Price: </Text>
                     <Text color={"blue"} fontWeight="bold" fontSize={25}>
+
                       ₹ {data1.price}
                       kl
+
+                      ₹ {94900.0}
+
                     </Text>
                   </Flex>
                   <Box mt={5}>
@@ -216,7 +245,11 @@ setData1(data)
                         fontWeight="semibold"
                         fontSize={17}
                       >
+
                         {3500}
+
+                        {99900.0}
+
                       </Text>
                     </Flex>
                     <Flex alignItems={"center"} gap={2} mt="5px">
@@ -226,7 +259,11 @@ setData1(data)
                         fontWeight="semibold"
                         fontSize={17}
                       >
+
                         {3500}
+
+                        {99900.0}
+
                       </Text>
                       <Text>(Inclusive of all taxes)</Text>
                     </Flex>
@@ -236,7 +273,11 @@ setData1(data)
                       fontWeight="bold"
                       mt="5px"
                     >
+
                       You Save: {data1.name}(₹5,000)
+
+                      You Save: 5%(₹5,000)
+
                     </Text>
                     <Text fontWeight={"500"} fontSize={16} mt="5px">
                       EMIs (Credit Cards) from ₹4556.42/month{" "}

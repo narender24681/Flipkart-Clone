@@ -2,6 +2,7 @@ import axios from "axios";
 import {
   ADD_PRODUCTS_SUCCSESS,
   DETADM_PRODUCTS_SUCCSESS,
+  PATCH_PRODUCTS_SUCCSESS,
   PRODUCTS_FAILURE,
   PRODUCTS_REQUEST,
 } from "./actionTypes";
@@ -35,6 +36,21 @@ export const getAllProducts = (dispatch) => {
     .catch((err) => {
       // console.log(err);
       dispatch(addProductsFai());
+    });
+};
+
+//Edit Data--
+
+export const editdata = (dataobj, id) => (dispatch) => {
+  dispatch({ type: PRODUCTS_REQUEST });
+
+  axios
+    .patch(`http://localhost:8088/electronics/${id}`, dataobj)
+    .then((res) => {
+      dispatch({ type: PATCH_PRODUCTS_SUCCSESS });
+    })
+    .catch((err) => {
+      dispatch({ type: PRODUCTS_FAILURE });
     });
 };
 

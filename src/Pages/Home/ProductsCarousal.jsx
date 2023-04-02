@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Button, Center, Flex, Heading, Image, Text, VStack } from '@chakra-ui/react';
+import { Box, Button, Center, Flex, Grid, GridItem, Heading, Image, Text, VStack } from '@chakra-ui/react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -540,16 +540,30 @@ const pickYourStylesProducts = [
   }
 ];
 
-
-
-
 export const ProductsCarousal = () => {
+  return (
+    <>
+      <ProductsCarousal1 banner={beautyFoodToysAndMoreBanner} products={beautyFoodToysAndMoreProducts} />
+      <ProductsCarousal1 banner={bestOfelectronicsBanner} products={bestOfelectronicsProducts} />
+      <ProductsCarousal1 banner={homeAndKitchenEssentialsBanner} products={homeAndKitchenEssentialsProducts} />
+      <ProductsCarousal1 banner={sportsHealthCareAndMoreBanner} products={sportsHealthCareAndMoreProducts} />
+      <ProductsCarousal1 banner={fashionTopDealsBanner} products={fashionTopDealsProducts} />
+      <ProductsCarousal1 banner={groomingBooksAutoAndMoreBanner} products={groomingBooksAutoAndMoreProducts} />
+      <ProductsCarousal1 banner={topDealsBanner} products={topDealsProducts} />
+      <ProductsCarousal1 banner={pickYourStylesBanner} products={pickYourStylesProducts} />
+      <ProductsCarousal1 banner={booksToysAndMoreBanner} products={booksToysAndMoreProducts} />
+    </>
+  )
+}
+
+
+const ProductsCarousal1 = ({ banner, products }) => {
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 4,
+    slidesToScroll: 3,
 
     nextArrow: <CustomNextArrow />,
     prevArrow: <CustomPrevArrow />,
@@ -564,27 +578,34 @@ export const ProductsCarousal = () => {
   ];
 
   return (
-    <Box mt={4} width="100%">
-      <Flex>
-        <Box>
-          <Box pt="20px" height="300px" width="100%" backgroundImage="https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90" backgroundPosition="0px bottom" backgroundRepeat="no-repeat" border="1px solid red">
+    <Box mt={5} width="100%" boxShadow="rgba(0, 0, 0, 0.16) 0px 1px 4px;">
+      <Grid
+        h={{base: "200px", md: "250px", lg: "300px"}}
+        templateColumns="repeat(5, 1fr)"
+      >
+        <GridItem colSpan={1} >
+          <Box pt="20px" height={{base: "200px", md: "250px", lg: "300px"}} width="100%" backgroundImage={banner.banner} backgroundPosition="0px bottom" backgroundRepeat="no-repeat">
             <Center>
               <VStack>
-                <Text pb="10px" textAlign="center" fontSize="xx-large">Best of Electronics</Text>
-                <Button colorScheme="#2874f0" backgroundColor="#2874f0" color="white" borderRadius="0px" fontSize="sm">VIEW ALL</Button>
+                <Text noOfLines={2} width={{base: "100%", "2xl": "95%"}} pb="10px" textAlign="center" fontSize={{base: "large", md: "x-large", lg: "xx-large"}}>{banner.heading}</Text>
+                <Button size={{base: "sm", lg: "md"}} colorScheme="#2874f0" backgroundColor="#2874f0" color="white" borderRadius="0px" fontSize="sm">VIEW ALL</Button>
               </VStack>
             </Center>
           </Box>
-        </Box>
-
-        <Box width="80%">
+        </GridItem>
+        <GridItem colSpan={4}>
           <Slider {...settings}>
-            {productsData.map((el, i) =>
-              <Image height="300px" key={i} objectfit="contain" src={el} alt="" />
+            {products.map((el, i) =>
+              <Box key={i} lineHeight="1.7" p="10px" height={{base: "200px", md: "250px", lg: "300px"}}>
+                <Image height={{base: "100px", md: "150px", lg: "200px"}} width="100%" objectFit="contain" src={el.image} alt="" />
+                <Text noOfLines={1} fontWeight="500" mt="7px" textAlign="center" fontSize="sm">{el.name}</Text>
+                <Text noOfLines={1} color="#388e3c" textAlign="center" fontSize="sm">{el.price}</Text>
+                <Text noOfLines={1} color="grey" textAlign="center" fontSize="sm">{el.brand}</Text>
+              </Box>
             )}
           </Slider>
-        </Box>
-      </Flex>
+        </GridItem>
+      </Grid>
     </Box>
   )
 }
@@ -593,7 +614,7 @@ const CustomPrevArrow = (props) => {
   const { className, style, onClick } = props;
 
   return (
-    <div className={className} style={{ ...style, marginLeft: "30px", zIndex: "1" }} onClick={onClick} />
+    <div className={className} style={{ ...style, marginLeft: "30px", zIndex: "1", backgroundColor: "lightGrey", borderRadius: "50%", paddingLeft: "0.3px", paddingTop: "1px" }} onClick={onClick} />
   )
 }
 
@@ -601,6 +622,6 @@ const CustomNextArrow = (props) => {
   const { className, style, onClick } = props;
 
   return (
-    <div className={className} style={{ ...style, marginRight: "30px" }} onClick={onClick} />
+    <div className={className} style={{ ...style, marginRight: "30px", backgroundColor: "lightGrey", borderRadius: "50%", paddingLeft: "0.3px", paddingTop: "1px" }} onClick={onClick} />
   )
 }
