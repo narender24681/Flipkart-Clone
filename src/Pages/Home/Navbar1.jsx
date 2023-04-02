@@ -1,10 +1,10 @@
 import { ChevronDownIcon, Search2Icon, StarIcon } from '@chakra-ui/icons';
 import { Box, Button, Center, Divider, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerOverlay, Flex, FormControl, FormLabel, Heading, HStack, IconButton, Image, Input, InputGroup, InputRightElement, Menu, MenuButton, MenuItem, MenuList, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, Text, useBreakpointValue, useDisclosure, useToast, VStack } from '@chakra-ui/react';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FaAdversal, FaBars, FaBell, FaBitcoin, FaCartPlus, FaDownload, FaGift, FaGifts, FaHeart, FaQuestion, FaShoppingCart, FaStar, FaUserCircle } from 'react-icons/fa';
 import { FiLogOut } from "react-icons/fi";
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { login, logout, signup } from '../../Redux/AuthReducer/action';
 
 const loginFormInitialData = {
@@ -92,7 +92,7 @@ function SmallScreenNavbarItems() {
 }
 
 function MediumAndLargeScreenNavbarItems() {
-  const toast = useToast()
+  const toast = useToast();
   const dispatch = useDispatch();
   const { isAuth, user } = useSelector(store => store.authReducer);
   //   console.log("-------------------------", isAuth, user);
@@ -345,6 +345,26 @@ function Logo() {
 }
 
 function Searchbar() {
+  const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const initialQuery = searchParams.get("q");
+  const [searchQuery, setSearchQuery] = useState(initialQuery || "");
+
+  useEffect(() => {
+    if(searchParams == "") {
+      setSearchQuery("");
+    }
+  }, [searchParams]);
+
+  const handleSearchChange = (e) => {
+    setSearchQuery(e.target.value);
+  }
+  
+  const handleSearch = () => {
+    // console.log(`/search?q=${searchQuery}`);
+    navigate(`/search?q=${searchQuery}`);
+  }
+
   return (
     <InputGroup size="sm"
       w={{ base: "300px", md: "300px", lg: "350px" }}>
@@ -352,9 +372,11 @@ function Searchbar() {
         bg="white"
         type="search"
         borderColor="grey"
+        value={searchQuery}
+        onChange={handleSearchChange}
         placeholder="Search for products, brands and more"
         _placeholder={{ opacity: 0.7, color: "grey" }} />
-      <InputRightElement _hover={{ cursor: "pointer" }} children={<Search2Icon color="#2874f0" />} />
+      <InputRightElement _hover={{ cursor: "pointer" }} children={<Search2Icon onClick={handleSearch} color="#2874f0" />} />
     </InputGroup>
   )
 }
