@@ -2,6 +2,7 @@ import axios from "axios";
 import {
   ADD_PRODUCTS_SUCCSESS,
   DETADM_PRODUCTS_SUCCSESS,
+  DELELE_PRODUCTS_SUCCESS,
   PATCH_PRODUCTS_SUCCSESS,
   PRODUCTS_FAILURE,
   PRODUCTS_REQUEST,
@@ -12,7 +13,7 @@ import {
 export const addProducstData = (adData) => (dispatch) => {
   dispatch(addProductsReq());
   axios
-    .post("http://localhost:8088/electronics", adData)
+    .post("http://localhost:8088/mens", adData)
     .then((res) => {
       //   console.log(res);
       dispatch(addProductsSuc());
@@ -28,7 +29,7 @@ export const getAllProducts = (dispatch) => {
   dispatch(addProductsReq());
 
   axios
-    .get("http://localhost:8088/electronics")
+    .get("http://localhost:8088/mens")
     .then((res) => {
       // console.log(res);
       dispatch(getProductsData(res.data));
@@ -45,9 +46,22 @@ export const editdata = (dataobj, id) => (dispatch) => {
   dispatch({ type: PRODUCTS_REQUEST });
 
   axios
-    .patch(`http://localhost:8088/electronics/${id}`, dataobj)
+    .patch(`http://localhost:8088/products/${id}`, dataobj)
     .then((res) => {
       dispatch({ type: PATCH_PRODUCTS_SUCCSESS });
+    })
+    .catch((err) => {
+      dispatch({ type: PRODUCTS_FAILURE });
+    });
+};
+
+export const deleteDatas = (id) => (dispatch) => {
+  dispatch({ type: PRODUCTS_REQUEST });
+
+  axios
+    .delete(`http://localhost:8088/products/${id}`)
+    .then((res) => {
+      dispatch({ type: DELELE_PRODUCTS_SUCCESS });
     })
     .catch((err) => {
       dispatch({ type: PRODUCTS_FAILURE });

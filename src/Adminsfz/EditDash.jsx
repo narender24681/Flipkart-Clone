@@ -10,10 +10,16 @@ import EditDetails from "./EditDetails";
 export default function EditDash() {
   return (
     <div>
-      <Box bg={"yellow"} color={"black"} fontFamily={"cursive"}>
+      <Box
+        bg={"yellow"}
+        color={"black"}
+        fontFamily={"cursive"}
+        textAlign={"center"}
+        justifyContent={"center"}
+      >
         An in-depth guide on admin panel requirements and development.
-        Comprehensive guidelines, useful design tips, key features, best
-        practices.🌹🌹
+        Comprehensive guidelines, useful design tips, features, best
+        practices.The most popular news content curation service in Asia .🌹🌹
       </Box>
       <AdminsNav />
       <div

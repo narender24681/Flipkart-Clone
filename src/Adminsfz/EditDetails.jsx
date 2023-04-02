@@ -38,8 +38,7 @@ export default function EditDetails() {
 
         <div style={{ textAlign: "start", padding: "5%" }}>
           <Text fontSize={"1.8rem"} color={"red"}>
-            {" "}
-            {movieDetailes.brand}{" "}
+            {movieDetailes.brand}
           </Text>
           <Text fontSize={"1.2rem"}>₹ {movieDetailes.price} </Text>
           <Text fontSize={"1.2rem"}>{movieDetailes.category} </Text>

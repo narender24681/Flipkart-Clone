@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import { FiBell } from "react-icons/fi";
 import { AiFillBell, AiOutlineAppstore } from "react-icons/ai";
+import { Link as RouterLink } from "react-router-dom";
 import {
   Box,
   Flex,
@@ -37,9 +38,12 @@ export default function AdminsNav() {
           </Box>
 
           <Flex alignItems={"center"}>
-            <Button colorScheme="yellow" m={"15px"}>
-              SmileKart
-            </Button>
+            <RouterLink to="/">
+              <Button colorScheme="yellow" m={"15px"}>
+                SmileKart
+              </Button>
+            </RouterLink>
+
             <Stack direction={"row"} spacing={7}>
               <Button>
                 <AiFillBell />
