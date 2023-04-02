@@ -1,6 +1,47 @@
 # innate-partner-2755
 
-## Commands
+
+## HomePage
+![Screenshot (1229)](https://user-images.githubusercontent.com/106812942/229348461-9f5b09b8-030d-45f6-af8e-2a81894dd8ec.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Packeges
 
 1. Axios
 2. React-redux
