@@ -12,7 +12,7 @@ function App() {
     <div>
       <Navbar1 />
       <AllRoutes />
-      <Womens/>
+      {/* <Womens/> */}
       {/* <Mens/> */}
       <Footer1 />
   

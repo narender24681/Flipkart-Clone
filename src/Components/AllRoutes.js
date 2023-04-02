@@ -30,7 +30,7 @@ export const AllRoutes = () => {
         path="/admin-products"
         element={<AllAddminProducts />}
       ></Route>{" "}
-      <Route path="/SingleProduct" element={<SingleProduct />}></Route>
+      <Route path="/SingleProduct/:id" element={<SingleProduct />}></Route>
     </Routes>
   );
 };
