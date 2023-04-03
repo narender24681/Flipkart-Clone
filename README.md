@@ -31,6 +31,7 @@ Installation: To install and run this cloned E-Commerce website{`SmileKart}` on 
 6. Chakra UI
 7. React-Router-Dom
 8. Json-Server
+9. 
 installed. Then, you can clone this repository, install the dependencies, and start the development server by running [insert the necessary commands].
 
 
