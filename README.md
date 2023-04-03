@@ -3,7 +3,7 @@
 
 
 
- This is a cloned version of an existing E-Commerce website that offers a variety of products and services to customers online. The website is built using [insert the technology stack you used] and closely mimics the original website in terms of design, functionality, and features.
+ This is a cloned version of an existing E-Commerce website that offers a variety of products and services to customers online. The website is built using `React, Redux, React-Redux, Chakra-UI, HTML,CSS JS, JSON-SERVER,Material-UI, Axios,React-Router-Dom` and closely mimics the original website in terms of design, functionality, and features.
 
  Website-Link https://incandescent-cassata-f56374.netlify.app/
 
