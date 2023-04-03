@@ -1,5 +1,9 @@
 # innate-partner-2755
 
+
+
+
+
  Website-Link https://incandescent-cassata-f56374.netlify.app/
  
 ## Contributers
@@ -11,8 +15,6 @@
 - [x] Rajat Agrawal - [GitHub Profile](https://github.com/agrawalrajat310)
 - [x] Supriya Sahoo - [GitHub Profile](https://github.com/supriya1011)
 - [x] Md Faizan - [GitHub Profile](https://github.com/mdfaizan973)
-
-
 
 ## Packages
 
@@ -27,15 +29,12 @@
 
 ## HomePage
 ![Screenshot (1240)](https://user-images.githubusercontent.com/106812942/229348542-59d1987c-fdfc-4ca3-a833-6106b9ec3943.png)
-
 ## LoginPage
 ![Screenshot (1231)](https://user-images.githubusercontent.com/106812942/229348571-a2c23d05-543a-4743-9b42-18d23bb08abf.png)
-
-
 ## ProductsPage
 ![Screenshot (1227)](https://user-images.githubusercontent.com/106812942/229348548-7fd2f17b-cede-4d3e-981d-23ec17547f4f.png)
-
 ## ProductsDetailsPage
+![Screenshot (1242)](https://user-images.githubusercontent.com/106812942/229419593-b35c0b87-f54e-4596-ab37-03ccad5ac24b.png)
 
 ## CartPage
 ![Screenshot (1232)](https://user-images.githubusercontent.com/106812942/229348566-7f53af69-00e2-408f-9602-18b1f18b89b4.png)
