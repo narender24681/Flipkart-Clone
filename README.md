@@ -22,7 +22,8 @@ Description: This is a cloned version of an existing E-Commerce website that off
 - [x] Md Faizan - [GitHub Profile](https://github.com/mdfaizan973)
 
 
-Installation: To install and run this cloned E-Commerce website{`SmileKart}` on your local machine, you need to have 1. Axios
+Installation: To install and run this cloned E-Commerce website{`SmileKart}` on your local machine, you need to have 
+1. Axios
 2. React-redux
 3. Redux-thunk
 4. styled-components
@@ -32,16 +33,7 @@ Installation: To install and run this cloned E-Commerce website{`SmileKart}` on 
 8. Json-Server
 installed. Then, you can clone this repository, install the dependencies, and start the development server by running [insert the necessary commands].
 
-## Packages
 
-1. Axios
-2. React-redux
-3. Redux-thunk
-4. styled-components
-5. Redux
-6. Chakra UI
-7. React-Router-Dom
-8. Json-Server
 
 ## HomePage
 ![Screenshot (1240)](https://user-images.githubusercontent.com/106812942/229348542-59d1987c-fdfc-4ca3-a833-6106b9ec3943.png)
