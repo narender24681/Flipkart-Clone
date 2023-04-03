@@ -7,7 +7,7 @@ Description: This is a cloned version of an existing E-Commerce website that off
  
  Credits: This cloned E-Commerce website is developed by `Narender Ch, Sumit, Rajat, Supirya, Md Faizan`, based on the original website owned by `Binny-Bansal - Sachin-Bansal`. We would like to acknowledge their hard work and creativity in designing and implementing such a successful E-Commerce platform.
 
- Website-Link https://incandescent-cassata-f56374.netlify.app/
+ Deployed-Link https://incandescent-cassata-f56374.netlify.app/
 
 
 
