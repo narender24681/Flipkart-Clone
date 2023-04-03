@@ -3,7 +3,9 @@
 
 
 
- This is a cloned version of an existing E-Commerce website that offers a variety of products and services to customers online. The website is built using `React, Redux, React-Redux, Chakra-UI, HTML,CSS JS, JSON-SERVER,Material-UI, Axios,React-Router-Dom` and closely mimics the original website in terms of design, functionality, and features.
+Description: This is a cloned version of an existing E-Commerce website that offers a variety of products and services to customers online. The website is built using `React, Redux, React-Redux, Chakra-UI, HTML,CSS JS, JSON-SERVER,Material-UI, Axios,React-Router-Dom` and closely mimics the original website in terms of design, functionality, and features.
+ 
+ Credits: This cloned E-Commerce website is developed by `Narender Ch, Sumit, Rajat, Supirya, Md Faizan`, based on the original website owned by `Binny-Bansal - Sachin-Bansal`. We would like to acknowledge their hard work and creativity in designing and implementing such a successful E-Commerce platform.
 
  Website-Link https://incandescent-cassata-f56374.netlify.app/
 
