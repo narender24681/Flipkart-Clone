@@ -49,7 +49,7 @@ export default function Edit() {
   };
   useEffect(() => {
     const pdata = products.find((ele) => ele.id === +id);
-    // console.log(pdata);
+    // console.log(pdatas);
     setData(pdata);
   }, []);
 
@@ -116,7 +116,7 @@ export default function Edit() {
                   <FormLabel>Price</FormLabel>
                   <Input
                     placeholder="Enter Price"
-                    type="number"
+                    type="text"
                     name="price"
                     onChange={handleChange}
                     value={data.price}

@@ -3,14 +3,15 @@ import {
 
   Box,
   Image,
-  
+  Button,
   useColorModeValue,
 
 
 } from '@chakra-ui/react';
-// import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { BsStar, BsStarFill, BsStarHalf } from 'react-icons/bs';
 // import { FiShoppingCart } from 'react-icons/fi';
+import {useState,useEffect} from "react"
 
 function Rating({ rating, numReviews }) {
   return (
@@ -41,12 +42,29 @@ function Rating({ rating, numReviews }) {
 }
 
 function ProductsCard({data}) {
+  // const [dat1,setData1]=useState([])
+  let arr1=JSON.parse(localStorage.getItem("items1"))||[]
+  console.log(arr1)
+   
+
+  const handelChangeClick=()=>{
+    
+arr1.push(data)
+
+
+ localStorage.setItem('items1', JSON.stringify(arr1));
+  }
+
+  // useEffect(()=>{
+  //   console.log(arr1.length)
+  // },[data])
   return (
 
       <Box
         bg={useColorModeValue('white', 'gray.800')}
         maxW="sm"
-        fontSize={"24px"}
+        fontSize={"20px"}
+        textAlign={"center"}
 
         // borderWidth="1px"
         // rounded="lg"
@@ -61,14 +79,14 @@ function ProductsCard({data}) {
             bg="red.200"
           />
          ) */}
-
+<NavLink to={`/SingleProduct/${data.id}`} >
         <Image
           src={data.image1}
           alt={`Picture of ${data.name}`}
           // roundedTop="lg"
           // width="110%"
           
-        />
+        /></NavLink>
 <h2>{data.category}</h2>
 <h2>{data.brand}</h2>
 
@@ -77,11 +95,11 @@ function ProductsCard({data}) {
 {/* <img style={{width:"70%",marginTop:"17px",marginLeft:"25px"}} src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png" alt="gh" /> */}
 
 <h3>₹{data.price}  <h3 style={{color:"green"}}>{data.name} off</h3></h3>  
-<h3 style={{color:"brown",fontSize:"20px"}}>Hot Deal</h3>  
+{/* <h3 style={{color:"brown",fontSize:"20px"}}>Hot Deal</h3>  
   
 <h3 style={{fontSize:"17px"}}>Free Delivery</h3>
-<h3 style={{color:"green",fontSize:"20px"}}>SIZE :- Sm,M,X,XL</h3>
-
+<h3 style={{color:"green",fontSize:"20px"}}>SIZE :- Sm,M,X,XL</h3> */}
+<Button colorScheme='red' onClick={handelChangeClick}>Cart</Button>
       </Box>
   
   

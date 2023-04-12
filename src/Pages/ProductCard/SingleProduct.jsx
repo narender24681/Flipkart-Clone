@@ -23,45 +23,72 @@ import { BiFileBlank, BiHeart, BiShareAlt } from "react-icons/bi";
 
 import { Link } from "react-router-dom";
 
-import ImageCaraosel from "../../Components/SingleProduct/ImageCarousel";
+
+// import ImageCaraosel from "../../Components/SingleProduct/ImageCarousel";
 
 import Styles from "../../Style/Single.module.css";
+import { useEffect,useState } from 'react'
+import { useSelector,useDispatch } from 'react-redux'
+// import {getProductsclothsSingleprod}  from '../../Redux/FashionReducer/action'
+import { useParams } from 'react-router-dom';
+
+
+// const toast = useToast();
+
+// const handleCart = () => {
+//   toast({
+//     title: "Product Added Success",
+//     description: "Okie. Product Added...",
+//     status: "success",
+//     duration: 5000,
+//     isClosable: true,
+//   });
+// };
+
+// const handleBuy = () => {
+//   toast({
+//     title: "Redirect to checkout",
+//     description: "Okie. Redirecting...",
+//     status: "success",
+//     duration: 5000,
+//     isClosable: true,
+//   });
+// };
 
 const SingleProduct = () => {
-  // const [data,setData] = useState("");
+  // const dispatch =useDispatch()
+  const [data1,setData1]=useState({})
+  const {products}=useSelector((store)=>store.fashionReducer)
+  const {id}=useParams();
+ 
+  let arr1=JSON.parse(localStorage.getItem("items1"))||[]
+  console.log(arr1)
+   
 
-  const toast = useToast();
+  const handelChangeClick=()=>{
+    
+arr1.push(data1)
 
-  const handleCart = () => {
-    toast({
-      title: "Product Added Success",
-      description: "Okie. Product Added...",
-      status: "success",
-      duration: 5000,
-      isClosable: true,
-    });
-  };
 
-  const handleBuy = () => {
-    toast({
-      title: "Redirect to checkout",
-      description: "Okie. Redirecting...",
-      status: "success",
-      duration: 5000,
-      isClosable: true,
-    });
-  };
+ localStorage.setItem('items1', JSON.stringify(arr1));
+  }
 
-  // useEffect(()=>{
 
-  //     axios.get("")
-  //     .then((res)=>setData(res.data))
-  //     .catch((err)=>console.log(err.message))
-  // },[])
+  useEffect(()=>{
+    const data=products.find((el)=>el.id === +id)
+    setData1(data)
+      },[id])
+    
 
   return (
     <>
+
+   
       <Box w={"100%"}>
+      
+
+      {/* <Box w={"100%"}> */}
+
         <Flex py={2} pl={2} pr={2} gap="2px" className={Styles.main_flex}>
           <Box w="50%">
             <Box mt={2}>
@@ -69,13 +96,18 @@ const SingleProduct = () => {
                 <BiHeart size={25} />
               </Text>
               <Image
-                src="https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177772-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NzUyMnxpbWFnZS9qcGVnfGltYWdlcy9oNjIvaGJhLzk4OTA1NDc2NjI4NzguanBnfDk1NjAyMGYwZmY2MTYzNWRkYWFmNzg0ODg1YTRkMWY2ZmQzY2I0YjliNDNjZTZlNTc0YjA2ODAwMzg3YWIyNTI"
+
+                src={data1?.image1}
+
+               
+
                 w={"60%"}
                 m="auto"
               />
             </Box>
             <Box mt={10}>
-              <ImageCaraosel />
+
+
             </Box>
             <Flex mt={10}>
               <Image
@@ -91,7 +123,12 @@ const SingleProduct = () => {
           <Box w="60%" pl={5} pt="10px">
             <Box>
               <Text fontSize={20} fontWeight="500">
-                Apple iPhone 14 Plus 256 GB, Blue(493177772)
+
+                {/* Apple iPhone 14 Plus 256 GB, Blue(493177772) */}
+                {data1?.title}
+
+             
+
               </Text>
               <Flex alignItems={"center"} gap="5px" mt={5}>
                 <Checkbox isInvalid>Add to Compare</Checkbox>
@@ -184,7 +221,12 @@ const SingleProduct = () => {
                   <Flex alignItems={"center"} gap={3}>
                     <Text>Deal Price: </Text>
                     <Text color={"blue"} fontWeight="bold" fontSize={25}>
-                      ₹ {94900.0}
+
+                      ₹ {data1.price}
+                    
+
+                    
+
                     </Text>
                   </Flex>
                   <Box mt={5}>
@@ -195,7 +237,11 @@ const SingleProduct = () => {
                         fontWeight="semibold"
                         fontSize={17}
                       >
-                        {99900.0}
+
+                        {3500}
+
+                  
+
                       </Text>
                     </Flex>
                     <Flex alignItems={"center"} gap={2} mt="5px">
@@ -205,7 +251,11 @@ const SingleProduct = () => {
                         fontWeight="semibold"
                         fontSize={17}
                       >
-                        {99900.0}
+
+                        {3500}
+
+                    
+
                       </Text>
                       <Text>(Inclusive of all taxes)</Text>
                     </Flex>
@@ -215,7 +265,11 @@ const SingleProduct = () => {
                       fontWeight="bold"
                       mt="5px"
                     >
-                      You Save: 5%(₹5,000)
+
+                      You Save: {data1.name}(₹5,000)
+
+                    
+
                     </Text>
                     <Text fontWeight={"500"} fontSize={16} mt="5px">
                       EMIs (Credit Cards) from ₹4556.42/month{" "}
@@ -234,9 +288,10 @@ const SingleProduct = () => {
                         border={"2px solid red"}
                         fontWeight="bold"
                         fontSize={18}
-                        onClick={handleCart}
+                        // onClick={handleCart}
                         color="white"
                         bg={"#e42529"}
+                        onClick={handelChangeClick}
                       >
                         ADD TO CART
                       </Button>
@@ -244,7 +299,7 @@ const SingleProduct = () => {
                         border={"2px solid red"}
                         fontWeight="bold"
                         fontSize={18}
-                        onClick={handleBuy}
+                        // onClick={handleBuy}
                         color=""
                         bg={"#fc6027"}
                       >
@@ -258,6 +313,8 @@ const SingleProduct = () => {
           </Box>
         </Flex>
       </Box>
+      <br />
+      <br />
     </>
   );
 };
