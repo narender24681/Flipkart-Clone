@@ -11,15 +11,22 @@ import Mens from "../Pages/Fashion/Mens";
 import Womens from "../Pages/Fashion/Womens";
 
 import SingleProduct from "../Pages/ProductCard/SingleProduct";
+import { PrivateRoute } from "../Pages/Auth/PrivateRoute";
+import { Search } from "../Pages/Home/Search";
+
+
+
+import SingleProduct from "../Pages/ProductCard/SingleProduct";
 
 export const AllRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/search" element={<Search />} />
       <Route path="/admin-dashboard" element={<Dashboard />}></Route>
       <Route path="/admin-products" element={<AllAddminProducts />}></Route>
       <Route path={"/edit/:id"} element={<EditDash />}></Route>
-      <Route path="/cart" element={<CartPage />} />
+      <Route path="/cart" element={<PrivateRoute><CartPage /></PrivateRoute>} />
       <Route path="/checkout" element={<CheckoutPage />} />
       <Route path="/mens" element={<Mens />} />
       <Route path="/womens" element={<Womens />} />
