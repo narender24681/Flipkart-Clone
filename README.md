@@ -35,20 +35,23 @@ installed. Then, you can clone this repository, install the dependencies, and st
 
 
 
-## HomePage
+## Home Page
 ![Screenshot (1240)](https://user-images.githubusercontent.com/106812942/229348542-59d1987c-fdfc-4ca3-a833-6106b9ec3943.png)
-## LoginPage
+
+## Login Page
 ![Screenshot (1231)](https://user-images.githubusercontent.com/106812942/229348571-a2c23d05-543a-4743-9b42-18d23bb08abf.png)
-## ProductsPage
+
+## Products Page
 ![Screenshot (1227)](https://user-images.githubusercontent.com/106812942/229348548-7fd2f17b-cede-4d3e-981d-23ec17547f4f.png)
-## ProductsDetailsPage
+
+## Products Details Page
 ![Screenshot (1242)](https://user-images.githubusercontent.com/106812942/229419593-b35c0b87-f54e-4596-ab37-03ccad5ac24b.png)
 
-## CartPage
+## Cart Page
 ![Screenshot (1232)](https://user-images.githubusercontent.com/106812942/229348566-7f53af69-00e2-408f-9602-18b1f18b89b4.png)
 
 
-## PaymentPage
+## Payment Page
 
 ![Screenshot (1233)](https://user-images.githubusercontent.com/106812942/229348610-ab95ce54-c66d-420e-9069-3502be465746.png)
 
@@ -56,20 +59,20 @@ installed. Then, you can clone this repository, install the dependencies, and st
 
 ![Screenshot (1235)](https://user-images.githubusercontent.com/106812942/229348622-37c87a96-fb25-4538-9d30-6feb6f1a11db.png)
 
-## FooterPage
+## Footer Page
 ![Screenshot (1230)](https://user-images.githubusercontent.com/106812942/229348696-5a84d088-c944-4416-96ba-7116c2e68d86.png)
 
 
-## AdimnPage
+## Admin Page
 ![Screenshot (1236)](https://user-images.githubusercontent.com/106812942/229348721-a3aa3c05-2ea6-49ae-b03f-7f1b16f79a8d.png)
 
-## AdminData
+## Admin Data
 ![Screenshot (1237)](https://user-images.githubusercontent.com/106812942/229348727-7756ba82-9710-44f1-8498-6cabf9720cfb.png)
 
-## AdminProducts
+## Admin Products
 ![Screenshot (1238)](https://user-images.githubusercontent.com/106812942/229348742-bc64f82b-30d5-44ed-badb-8c6bf7659710.png)
 
-## AdminEditPage
+## Admin Edit Page
 ![Screenshot (1239)](https://user-images.githubusercontent.com/106812942/229348752-3e9390a0-3b3e-4cfa-8d8c-a460359dcc72.png)
 
 
