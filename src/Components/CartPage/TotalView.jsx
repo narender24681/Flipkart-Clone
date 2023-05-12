@@ -28,9 +28,9 @@ const useStyle = makeStyles({
   },
 });
 
-const TotalView = ({ page = "cart" }) => {
+const TotalView = ({ page = "cart", totalPrice }) => {
   const classes = useStyle();
-  const [price, setPrice] = useState(100000);
+  const [price, setPrice] = useState(1000);
   const [discount, setDiscount] = useState(0);
   const [deliveryCharges, setDeliveryCharges] = useState(0);
 
@@ -57,7 +57,7 @@ const TotalView = ({ page = "cart" }) => {
       <Box className={clsx(classes.header, classes.container)}>
         <Typography>
           Price 
-          <span className={classes.price}>₹{price}</span>
+          <span className={classes.price}>₹{totalPrice}</span>
         </Typography>
         {page === "cart" && (
           <Typography>
@@ -73,7 +73,7 @@ const TotalView = ({ page = "cart" }) => {
         <Typography className={classes.totalAmount}>
           {page === "checkout" ? "Total Payable" : "Total Amount"}
           <span className={classes.price}>
-            ₹{price - discount + deliveryCharges}
+            ₹{totalPrice - discount + deliveryCharges}
           </span>
         </Typography>
         <Typography style={{ fontSize: 16, color: "green" }}>

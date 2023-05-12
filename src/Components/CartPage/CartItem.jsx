@@ -49,7 +49,7 @@ const useStyle = makeStyles({
   },
 });
 
-const CartItem = ({ item }) => {
+const CartItem = ({ item, image1, title, brand, price }) => {
   const classes = useStyle();
   const [isOpenDialog, setIsOpenDialog] = useState(false);
 
@@ -65,33 +65,25 @@ const CartItem = ({ item }) => {
     <>
       <Card className={classes.component}>
         <Box className={classes.leftComponent}>
-          <img src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1664009390/Croma%20Assets/Communication/Mobiles/Images/243537_0_parqxl.png/mxw_640,f_auto" className={classes.image} />
+          <img src={image1} className={classes.image} />
           <GroupButton product={item} />
         </Box>
         <Box className={classes.mid}>
             <Typography className={classes.itemTitle}>
-              Iphone 13pro max
+            {title}
             </Typography>
 
             <Typography
               className={clsx(classes.greyTextColor, classes.smallText)}
               style={{ marginTop: 10 }}
             >
-              Seller:RetailNet
+              Seller:{brand}
               <span>
                 <img src={"https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png"} style={{ height: 18, marginLeft: 10 }} />
               </span>
             </Typography>
             <Typography style={{ margin: "20px 0", color: "#000" }}>
-              <span className={classes.price}>₹ 100000</span>
-              &nbsp;&nbsp;&nbsp;
-              <span className={classes.greyTextColor}>
-                <strike>₹100000</strike>
-              </span>
-              &nbsp;&nbsp;&nbsp;
-              <span style={{ color: "#388E3C" }}>
-                 off
-              </span>
+              <span className={classes.price}>₹ {price}</span>
             </Typography>
           {/* </Link> */}
           <Button className={classes.remove} onClick={dialogOpen}>

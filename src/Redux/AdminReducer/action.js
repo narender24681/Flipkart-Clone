@@ -7,13 +7,14 @@ import {
   PRODUCTS_FAILURE,
   PRODUCTS_REQUEST,
 } from "./actionTypes";
+import { databaseUrl } from "../../utils/database-url";
 
 // Adding Products in db.jons // post request----------
 
 export const addProducstData = (adData) => (dispatch) => {
   dispatch(addProductsReq());
   axios
-    .post("http://localhost:8088/mens", adData)
+    .post(`${databaseUrl}/mens`, adData)
     .then((res) => {
       //   console.log(res);
       dispatch(addProductsSuc());
@@ -29,7 +30,7 @@ export const getAllProducts = (dispatch) => {
   dispatch(addProductsReq());
 
   axios
-    .get("http://localhost:8088/mens")
+    .get(`${databaseUrl}/mens`)
     .then((res) => {
       // console.log(res);
       dispatch(getProductsData(res.data));
@@ -46,7 +47,7 @@ export const editdata = (dataobj, id) => (dispatch) => {
   dispatch({ type: PRODUCTS_REQUEST });
 
   axios
-    .patch(`http://localhost:8088/products/${id}`, dataobj)
+    .patch(`${databaseUrl}/products/${id}`, dataobj)
     .then((res) => {
       dispatch({ type: PATCH_PRODUCTS_SUCCSESS });
     })
@@ -59,7 +60,7 @@ export const deleteDatas = (id) => (dispatch) => {
   dispatch({ type: PRODUCTS_REQUEST });
 
   axios
-    .delete(`http://localhost:8088/products/${id}`)
+    .delete(`${databaseUrl}/products/${id}`)
     .then((res) => {
       dispatch({ type: DELELE_PRODUCTS_SUCCESS });
     })
