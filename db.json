@@ -20,6 +20,27 @@
       "lastName": "gn",
       "password": "qwerty",
       "id": 3
+    },
+    {
+      "email": "nayanbhagat99@gmail.com",
+      "firstName": "Nayan",
+      "lastName": "Shinde",
+      "password": "Nayan@123",
+      "id": 4
+    },
+    {
+      "email": "abhiraskar99@gmail.com",
+      "firstName": "Abhi",
+      "lastName": "Raskar",
+      "password": "Abhi@123",
+      "id": 5
+    },
+    {
+      "email": "eknatshinde@gmail.com",
+      "firstName": "Eknat",
+      "lastName": "Shinde",
+      "password": "Eknat@123",
+      "id": 6
     }
   ],
   "products": [
@@ -730,12 +751,7 @@
       "id": 32
     }
   ],
-
   "womens": [],
-
- 
-
-
   "electronics": [
     {
       "image1": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/r/q/m/-original-imagca5ajerqpfjy.jpeg?q=70",

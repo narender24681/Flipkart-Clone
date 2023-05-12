@@ -28,7 +28,7 @@ export const reducer = (state = initialState, { type, payload }) => {
           ...state.user,
           ...obj1
         },
-        isAuth: true
+        isAuth: false
       }
     case AUTH_LOGIN:
       let obj2 = {

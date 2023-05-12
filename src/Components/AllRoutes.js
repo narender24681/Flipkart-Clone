@@ -16,7 +16,7 @@ import { Search } from "../Pages/Home/Search";
 
 
 
-import SingleProduct from "../Pages/ProductCard/SingleProduct";
+// import SingleProduct from "../Pages/ProductCard/SingleProduct";
 
 export const AllRoutes = () => {
   return (
