@@ -132,33 +132,59 @@ function MediumAndLargeScreenNavbarItems() {
   }
 
   const handleSignupFormChange = (e) => {
-    setSignupFormData({ ...signupFormData, [e.target.name]: e.target.value });
+
+ 
+      setSignupFormData({ ...signupFormData, [e.target.name]: e.target.value });
+   
+    
   }
 
+
+
   const handleSignup = () => {
-    //   console.log(signupFormData);
-    dispatch(signup(signupFormData))
-      .then(res => {
-        // console.log(res);
-        if (res) {
-          toast({
-            title: 'Account created successfully.',
-            duration: 2000,
-            status: "success",
-            isClosable: true,
-          });
-        }
-        else {
-          toast({
-            title: 'Email already present.',
-            duration: 2000,
-            status: "error",
-            isClosable: true,
-          });
-        }
-      })
-    setSignupFormData(signupFormInitialData);
-    onClose();
+let flag=false
+ 
+      
+      for(let i=0;i<signupFormData.email.length;i++){
+if(signupFormData.email[i]=="@"){
+  flag=true
+}
+      }
+
+
+   if(signupFormData.email=="" || flag==false){
+alert("please enter your email and it should be a proper email","It is required")
+   }else    if(signupFormData.firstName==""){
+    alert("please enter your First Name","It is required")
+       }else    if(signupFormData.lastName==""){
+        alert("please enter your lastName","It is required")
+           }else    if(signupFormData.password==""){
+            alert("please enter your Password","It is required")
+               }else {
+                dispatch(signup(signupFormData))
+                .then(res => {
+                  // console.log(res);
+                  if (res) {
+                    toast({
+                      title: 'Account created successfully.',
+                      duration: 2000,
+                      status: "success",
+                      isClosable: true,
+                    });
+                  }
+                  else {
+                    toast({
+                      title: 'Email already present.',
+                      duration: 2000,
+                      status: "error",
+                      isClosable: true,
+                    });
+                  }
+                })
+              setSignupFormData(signupFormInitialData);
+              onClose();
+               }
+  
   }
 
   const handleLogout = () => {
@@ -264,22 +290,22 @@ function MediumAndLargeScreenNavbarItems() {
                   <ModalBody pb={6}>
                     <FormControl>
                       <FormLabel>Email</FormLabel>
-                      <Input name="email" value={signupFormData.email} onChange={handleSignupFormChange} type="email" placeholder='Enter email' />
+                      <Input type="email" name="email" value={signupFormData.email} onChange={handleSignupFormChange}  placeholder='Enter email' required/>
                     </FormControl>
 
                     <FormControl mt={4}>
                       <FormLabel>First Name</FormLabel>
-                      <Input name="firstName" value={signupFormData.firstName} onChange={handleSignupFormChange} type="text" placeholder='Enter first name' />
+                      <Input name="firstName" value={signupFormData.firstName} onChange={handleSignupFormChange} type="text" placeholder='Enter first name' required/>
                     </FormControl>
 
                     <FormControl mt={4}>
                       <FormLabel>Last Name</FormLabel>
-                      <Input name="lastName" value={signupFormData.lastName} onChange={handleSignupFormChange} type="text" placeholder='Enter last name' />
+                      <Input name="lastName" value={signupFormData.lastName} onChange={handleSignupFormChange} type="text" placeholder='Enter last name' required/>
                     </FormControl>
 
                     <FormControl mt={4}>
                       <FormLabel>Password</FormLabel>
-                      <Input name="password" value={signupFormData.password} onChange={handleSignupFormChange} type="password" placeholder='Enter password' />
+                      <Input name="password" value={signupFormData.password} onChange={handleSignupFormChange} type="password" placeholder='Enter password' required/>
                     </FormControl>
                     <Center mt="2">
                       <Text fontSize="sm">Have an account? <Text as="span" fontSize="sm" color="#2874f0" _hover={{ cursor: "pointer" }} onClick={() => setIsLoginModel(true)}>Login</Text></Text>
