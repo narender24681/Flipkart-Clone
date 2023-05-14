@@ -80,9 +80,9 @@ dispatch(getProductsclothsWomen(obj))
 
 
 <div>
-<Button disabled={page===1} colorScheme='blue' mr="10px" onClick={()=>setPage(page-1)} >Previous</Button>
+<Button disabled={page===1} colorScheme='blue' mr="10px" onClick={()=>setPage(page-1)} style={{width:"10%",height:"40px",border:"1px solid brown",borderRadius:"10px",backgroundColor:"lightblue" ,fontSize:"16px" ,color:"black",marginRight:"10px",marginLeft:"350px"}}>Previous</Button>
 <Button colorScheme='red'>{page}</Button>
-<Button  colorScheme='blue' ml="10px" onClick={()=>setPage(page+1)}>Next</Button> 
+<Button  colorScheme='blue' ml="10px" onClick={()=>setPage(page+1)} style={{width:"10%",height:"40px",border:"1px solid brown",borderRadius:"10px",backgroundColor:"lightblue" ,fontSize:"16px" ,color:"black",marginLeft:"10px"}}>Next</Button> 
 </div>
 <br />
 </Box>

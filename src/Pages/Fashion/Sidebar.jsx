@@ -136,12 +136,11 @@ setStatus9(!status9)
 <br />
 <div style={{textAlign:"left"}}>
 <hr />
-<Link to="#" style={sty1}>Mens</Link>
+<Link to="/mens" style={sty1}>Mens</Link>
 <hr />
-<Link to="#" style={sty1}>Womens</Link>
-<hr />
-<Link to="#" style={sty1}>Kids</Link>
-<hr />
+<Link to="/womens" style={sty1}>Womens</Link>
+
+<hr />                       
 </div>
 <br />
 <div style={{alignItems:"center",display:"flex"}}  >
@@ -152,7 +151,7 @@ setStatus9(!status9)
 <hr />
 
 <div style={{textAlign:"left"}}>
-<h1 style={sty1} onClick={handelClick1}> <Link to="#">DISCOUNT {status1?"⬆":"⬇"}</Link> </h1>
+<h1 style={sty1} onClick={handelClick1}> <button>DISCOUNT {status1?"⬆":"⬇"}</button> </h1>
 
 {status1? <div>
     
@@ -180,7 +179,7 @@ setStatus9(!status9)
 
 
 <div style={{textAlign:"left"}}>
-<h1 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px",paddingBottom:"20px"}} onClick={handelClick2}> <Link to="#">BRAND {status2?"⬆":"⬇"}</Link> </h1>
+<h1 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px",paddingBottom:"20px"}} onClick={handelClick2}> <button>BRAND {status2?"⬆":"⬇"}</button> </h1>
 
 {status2? <div>
     
@@ -208,7 +207,7 @@ Allen Solly</label> <br /><br />
 
 
 <div style={{textAlign:"left"}}>
-<h1 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px",paddingBottom:"20px"}} onClick={handelClick3}> <Link to="#">CUSTOMER RATINGS {status3?"⬆":"⬇"}</Link> </h1>
+<h1 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px",paddingBottom:"20px"}} onClick={handelClick3}> <button>CUSTOMER RATINGS {status3?"⬆":"⬇"}</button> </h1>
 
 {status3? <div>
     
@@ -224,7 +223,7 @@ Allen Solly</label> <br /><br />
 <hr/>
 
 <div style={{textAlign:"left"}}>
-<h1 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px",paddingBottom:"20px"}} onClick={handelClick4}> <Link to="#">SIZE {status4?"⬆":"⬇"}</Link> </h1>
+<h1 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px",paddingBottom:"20px"}} onClick={handelClick4}> <button>SIZE {status4?"⬆":"⬇"}</button> </h1>
 
 {status4? <div>
     
@@ -269,7 +268,7 @@ Allen Solly</label> <br /><br />
 ========================colors------------------- */}
 
 <div style={{textAlign:"left"}}>
-<h1 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px",paddingBottom:"20px"}} onClick={handelClick5}> <Link to="#">COLORS {status5?"⬆":"⬇"}</Link> </h1>
+<h1 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px",paddingBottom:"20px"}} onClick={handelClick5}> <button>COLORS {status5?"⬆":"⬇"}</button> </h1>
 
 {status5? <div>
     
@@ -298,7 +297,7 @@ Allen Solly</label> <br /><br />
 {/* -------------------------------FIT-------------------- */}
 
 <div style={{textAlign:"left"}}>
-<h1 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px",paddingBottom:"20px"}} onClick={handelClick6}> <Link to="#">FIT {status6?"⬆":"⬇"}</Link> </h1>
+<h1 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px",paddingBottom:"20px"}} onClick={handelClick6}> <button>FIT {status6?"⬆":"⬇"}</button> </h1>
 
 {status6? <div>
     
@@ -327,7 +326,7 @@ Regular Fit</label> <br/> <br />
 --------------------offers================ */}
 
 <div style={{textAlign:"left"}}>
-<h1 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px",paddingBottom:"20px"}} onClick={handelClick7}> <Link to="#">OFFERS{status7?"⬆":"⬇"}</Link> </h1>
+<h1 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px",paddingBottom:"20px"}} onClick={handelClick7}> <button>OFFERS{status7?"⬆":"⬇"}</button> </h1>
 
 {status7? <div>
     
@@ -349,7 +348,7 @@ Regular Fit</label> <br/> <br />
 
 
 <div style={{textAlign:"left"}}>
-<h1 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px",paddingBottom:"20px"}} onClick={handelClick8}> <Link to="#">SIZE {status8?"⬆":"⬇"}</Link> </h1>
+<h1 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px",paddingBottom:"20px"}} onClick={handelClick8}> <button>SIZE {status8?"⬆":"⬇"}</button> </h1>
 
 {status8? <div>
     
@@ -378,7 +377,7 @@ Regular Fit</label> <br/> <br />
 
 
 <div style={{textAlign:"left"}}>
-<h1 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px",paddingBottom:"20px"}} onClick={handelClick9}> <Link to="#">AVAILABILITY {status9?"⬆":"⬇"}</Link> </h1>
+<h1 style={{fontSize:"23px",textAlign:"left",paddingLeft:"15px",paddingTop:"20px",paddingBottom:"20px"}} onClick={handelClick9}> <button>AVAILABILITY {status9?"⬆":"⬇"}</button> </h1>
 
 {status9? <div>
     

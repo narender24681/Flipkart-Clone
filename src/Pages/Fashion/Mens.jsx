@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box ,Spinner,SimpleGrid,Button} from '@chakra-ui/react'
+import { Box ,Spinner,SimpleGrid,Button,Text} from '@chakra-ui/react'
 import { Flex } from '@chakra-ui/react'
 import Sidebar from './Sidebar'     
 import { useEffect ,useState} from 'react'
@@ -13,12 +13,18 @@ import { Link } from 'react-router-dom'
 
 
 
+
+
 const Mens = () => {
   const dispatch =useDispatch()
   const {products,isLoading}=useSelector((store)=>store.fashionReducer)
   let [searchParams] = useSearchParams();
     const location=useLocation()
     const [page,setPage]=useState(1)
+   
+
+
+ 
 
 
     let obj={
@@ -32,10 +38,12 @@ const Mens = () => {
         _limit:8,
       }
   }
-
+console.log(products)
 
   useEffect(()=>{
+  
 dispatch(getProductscloths(obj))
+
   },[location.search,page])
 
 
@@ -62,7 +70,7 @@ dispatch(getProductscloths(obj))
 </div>
 
   <br />
- <p>You can spruce up your style with the right bottomwear. Flipkart is home to some of the best bottomwear for men, for kids, and for women. Brands such as Wrangler, Levi’s, Lee, W, Peter England, and U.S. Polo Assn have a wide selection of chinos, jeans, shorts, and more. So, depending on your preferred style you are definitely going to find something that will find its worthy place in your wardrobe. Some of the bottom wear for women that you can shop for include shorts, plaited skirts, pencil skirts, ripped jeans, and cargo pants. Some of the bottomwear for men that you should keep an eye out for include striped chinos, formal trousers, knee-length jeans, and ripped shorts. Be sure to keep a good balance of colours in your selection. Besides the mandatory black and beige pants, you can also opt for trousers that come in colours such as olive green, brown, yellow, grey, and white. With these clothing items, we are sure that you will be the centre of attention, wherever you go, thanks to your impeccable sense of dressing. Oh, and feel free to enhance your look with some accessories. Even wearing a simple watch can go a long way in redefining your look.</p>
+<Text fontSize={["1px","2px","3px","12px"]}> You can spruce up your style with the right bottomwear. Flipkart is home to some of the best bottomwear for men, for kids, and for women. Brands such as Wrangler, Levi’s, Lee, W, Peter England, and U.S. Polo Assn have a wide selection of chinos, jeans, shorts, and more. So, depending on your preferred style you are definitely going to find something that will find its worthy place in your wardrobe. Some of the bottom wear for women that you can shop for include shorts, plaited skirts, pencil skirts, ripped jeans, and cargo pants. Some of the bottomwear for men that you should keep an eye out for include striped chinos, formal trousers, knee-length jeans, and ripped shorts. Be sure to keep a good balance of colours in your selection. Besides the mandatory black and beige pants, you can also opt for trousers that come in colours such as olive green, brown, yellow, grey, and white. With these clothing items, we are sure that you will be the centre of attention, wherever you go, thanks to your impeccable sense of dressing. Oh, and feel free to enhance your look with some accessories. Even wearing a simple watch can go a long way in redefining your look.</Text>
  </div>
  {/* <br /> */}
  <br />
@@ -78,10 +86,10 @@ dispatch(getProductscloths(obj))
 
 
 
-<div>
-<Button disabled={page===1} colorScheme='blue' mr="10px" onClick={()=>setPage(page-1)} >Previous</Button>
+<div >
+<button disabled={page===1} style={{width:"10%",height:"40px",border:"1px solid brown",borderRadius:"10px",backgroundColor:"lightblue" ,fontSize:"16px" ,color:"black",marginRight:"10px",marginLeft:"350px"}} onClick={()=>setPage(page-1)} >Previous</button>
 <Button colorScheme='red'>{page}</Button>
-<Button  colorScheme='blue' ml="10px" onClick={()=>setPage(page+1)}>Next</Button> 
+<button disabled={page===Math.ceil((products.length*2)/8)} style={{width:"10%",height:"40px",border:"1px solid brown",borderRadius:"10px",backgroundColor:"lightblue" ,fontSize:"16px" ,color:"black",marginLeft:"10px"}} onClick={()=>setPage(page+1)}>Next</button> 
 </div>
 <br />
 </Box>

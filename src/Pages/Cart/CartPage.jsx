@@ -41,8 +41,23 @@ const useStyle = makeStyles((theme) => ({
 
 export const CartPage = () => {
   const classes = useStyle();
+  const cartProducts = JSON.parse(localStorage.getItem("items1")) || [];
+  const [totalPrice, setTotalPrice] = useState(0);
+  console.log("----------------", cartProducts);
 
   const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(() => {
+    let total = 0;
+
+    cartProducts.forEach(el => {
+      // console.log(total, totalPrice);
+      total += el.price
+    })
+
+    setTotalPrice(total);
+  }, []);
+  console.log("totalPrice", totalPrice);
 
   const placeOrder = () => {
     window.location.replace("/checkout?init=true");
@@ -67,7 +82,8 @@ export const CartPage = () => {
                 My Cart 
               </Typography>
             </Box>
-            <CartItem/>
+            {cartProducts.map(el => 
+              <CartItem key={el.id} {...el} />)}
             <Box className={classes.bottom}>
               <Button
                 onClick={placeOrder}
@@ -75,12 +91,13 @@ export const CartPage = () => {
                 className={classes.placeOrder}
                 style={{ backgroundColor: "#fb641b" }}
               >
-                Place Order
+                Checkout
               </Button>
             </Box>
           </Grid>
           <Grid item lg={3} md={3} sm={12} xs={12}>
-            <TotalView />
+            {/* {} */}
+            <TotalView totalPrice={totalPrice} />
           </Grid>
         </Grid>
       

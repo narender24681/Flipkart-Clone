@@ -5,6 +5,7 @@ import {
   Image,
   Button,
   useColorModeValue,
+  useToast,
 
 
 } from '@chakra-ui/react';
@@ -42,17 +43,26 @@ function Rating({ rating, numReviews }) {
 }
 
 function ProductsCard({data}) {
-  // const [dat1,setData1]=useState([])
-  let arr1=JSON.parse(localStorage.getItem("items1"))||[]
-  console.log(arr1)
-   
+  const toast = useToast();
 
+  // const [dat1,setData1]=useState([])
+  
+  
   const handelChangeClick=()=>{
+    let arr1=JSON.parse(localStorage.getItem("items1"))||[]
+    console.log(arr1)
     
 arr1.push(data)
 
 
  localStorage.setItem('items1', JSON.stringify(arr1));
+
+ toast({
+  title: 'Product added to cart.',
+  duration: 2000,
+  status: "success",
+  isClosable: true,
+});
   }
 
   // useEffect(()=>{

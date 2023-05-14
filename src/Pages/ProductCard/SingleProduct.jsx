@@ -60,17 +60,25 @@ const SingleProduct = () => {
   const [data1,setData1]=useState({})
   const {products}=useSelector((store)=>store.fashionReducer)
   const {id}=useParams();
+  const toast = useToast();
  
-  let arr1=JSON.parse(localStorage.getItem("items1"))||[]
-  console.log(arr1)
-   
-
+  
+  
   const handelChangeClick=()=>{
+    let arr1=JSON.parse(localStorage.getItem("items1"))||[]
+    console.log(arr1)
     
 arr1.push(data1)
 
 
  localStorage.setItem('items1', JSON.stringify(arr1));
+
+ toast({
+  title: 'Product added to cart.',
+  duration: 2000,
+  status: "success",
+  isClosable: true,
+});
   }
 
 

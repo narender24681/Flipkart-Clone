@@ -8,8 +8,9 @@ const initialState = {
     firstName: "",
     lastName: "",
   },
-  isAuth: localStorage.getItem("isAuth") || false,
+  isAuth:  localStorage.getItem("isAuth") ||false,
 }
+// localStorage.getItem("isAuth") ||
 
 export const reducer = (state = initialState, { type, payload }) => {
   switch (type) {
@@ -28,7 +29,7 @@ export const reducer = (state = initialState, { type, payload }) => {
           ...state.user,
           ...obj1
         },
-        isAuth: true
+        isAuth: false
       }
     case AUTH_LOGIN:
       let obj2 = {

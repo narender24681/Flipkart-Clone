@@ -1,59 +1,3 @@
-// import { Box, Center, Text } from '@chakra-ui/react';
-// import React from 'react';
-// import { useSearchParams } from 'react-router-dom';
-// import Mens from '../Fashion/Mens';
-
-// export const Search = () => {
-//   const [searchParams, setSearchParams] = useSearchParams();
-//   const initialQuery = searchParams.get("q");
-//   console.log(initialQuery);
-
-//   return (
-//     <div>
-//       {initialQuery == "mens" ?
-//       <Mens /> :
-//       <Box mt="150px" pb="250px">
-//         <Center>
-//         <Text fontSize="lg" fontWeight="600">Product Not Found!.</Text>
-//         </Center>
-//       </Box>
-//       }
-//     </div>
-//   )
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import React from 'react'
 import { Box, Spinner, SimpleGrid, Button, Center, Text } from '@chakra-ui/react'
 import { Flex } from '@chakra-ui/react'
@@ -85,11 +29,10 @@ export const Search = () => {
   )
 }
 
-
 const Mens1 = () => {
   const dispatch = useDispatch()
   const { products, isLoading } = useSelector((store) => store.fashionReducer)
-  let [searchParams, setSearchParams] = useSearchParams();
+  let [searchParams] = useSearchParams();
   const location = useLocation();
   const navigate = useNavigate();
   const [page, setPage] = useState(1)
@@ -109,7 +52,7 @@ const Mens1 = () => {
 
 
   useEffect(() => {
-    dispatch(getProductscloths(obj))
+    dispatch(getProductscloths(obj));
     navigate(`/search?q=${searchParams.get("q")}`);
   }, [location.search, page])
 
