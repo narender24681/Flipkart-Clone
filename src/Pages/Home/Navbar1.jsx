@@ -412,6 +412,25 @@ function NavbarBottom() {
     <Center borderBottom="1px solid lightGrey">
       <Box width={{ base: "100%", lg: "1280px" }} p={2} w="100%">
         <Flex flexWrap={{ base: "wrap" }} justifyContent="space-around">
+        <Box p={1}>
+            <Menu>
+              <MenuButton _hover={{ cursor: "pointer" }} textAlign="center" fontSize="14px" fontWeight="600" as={Text} righticon={<ChevronDownIcon color="red" />}>
+                <Image
+                  objectFit="contain"
+                  w="100%"
+                  height="70px"
+                  src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/d34810848b2895c9.png?q=100"
+                  alt="Fashion" />
+                Fashion
+                <ChevronDownIcon />
+              </MenuButton>
+              <MenuList>
+                <MenuItem as="a" href="/mens">Mens</MenuItem>
+                <MenuItem as="a" href="/womens">Womens</MenuItem>
+                
+              </MenuList>
+            </Menu>
+          </Box>
           <Box p={1}>
             <Image
               objectFit="contain"
@@ -430,25 +449,7 @@ function NavbarBottom() {
               alt="Mobiles" />
             <Text textAlign="center" fontSize="14px" fontWeight="600">Mobiles</Text>
           </Box>
-          <Box p={1}>
-            <Menu>
-              <MenuButton _hover={{ cursor: "pointer" }} textAlign="center" fontSize="14px" fontWeight="600" as={Text} righticon={<ChevronDownIcon color="red" />}>
-                <Image
-                  objectFit="contain"
-                  w="100%"
-                  height="70px"
-                  src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/d34810848b2895c9.png?q=100"
-                  alt="Fashion" />
-                Fashion
-                <ChevronDownIcon />
-              </MenuButton>
-              <MenuList>
-                <MenuItem as="a" href="/mens">Mens</MenuItem>
-                <MenuItem as="a" href="/womens">Womens</MenuItem>
-                <MenuItem as="a" href="/kids">Kids</MenuItem>
-              </MenuList>
-            </Menu>
-          </Box>
+
           <Box p={1}>
             <Image
               objectFit="contain"
