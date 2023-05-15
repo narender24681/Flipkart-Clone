@@ -82,5 +82,6 @@ export const addProductsFai = () => {
 };
 
 export const getProductsData = (payload) => {
-  return { type: DETADM_PRODUCTS_SUCCSESS, payload };
+  return { type: DETADM_PRODUCTS_SUCCSESS, payload };    
 };
+           
